@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- View Port -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- End of View Port-->
+
+<title>Xantara Development Corp</title>
+
+<link href="css/Grid.css" rel="stylesheet" type="text/css">
+
+<!-- JQuery -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<!-- End of JQuery -->
+
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <div class="container" id="header-container">
+  		<ul class="topnav">
+  			<li><a id="home" class="tablinks">Home</a></li>
+  			<li><a id="browse" class="tablinks">Browse</a></li>
+  			<li><a id="about" class="tablinks">About</a></li>
+  			<li><a id="contactus" class="tablinks">Contact Us</a></li>
+  		</ul>
+  	</div>
+  <!-- Hero Section -->
+  <div class="about" id="1">
+  <section class="intro">
+    <div class="column">
+      <h2>Xantara Development Corporation</h2>
+    <img src="images/profile.png" alt="" class="profile"> </div>
+    <div class="column" id="translucent">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+    </div>
+      </section>
+	  </div>
+  <!-- Stats Gallery Section -->
+  <div id="2" class="browse">
+   <div class="gallery">
+     <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+       <h4>PROPERTY 1</h4>
+       <p class="tag">Property Location</p>
+       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     </div>
+     <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+       <h4>PROPERTY 2</h4>
+       <p class="tag">Property Location</p>
+       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>PROPERTY 3</h4>
+      <p class="tag">Property Location</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>PROPERTY 4</h4>
+      <p class="tag">Property Location</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>PROPERTY 5</h4>
+      <p class="tag">Property Location</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>PROPERTY 6</h4>
+      <p class="tag">Property Location</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>PROPERTY 7</h4>
+      <p class="tag">Property Location</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>PROPERTY 8</h4>
+      <p class="tag">Property Location</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  </div>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p class="hero_header">GET IN TOUCH WITH US</p>
+    <div class="button">CONTACT US </div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong></div>
+</div>
+<!-- Main Container Ends -->
+
+<!-- Script for Same Page Navigation -->
+<script>
+		$("#home").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#1").offset().top
+			}, 2000);
+		});
+		
+		$("#browse").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#2").offset().top
+			}, 2000);
+		});
+		
+		$("#about").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#1").offset().top
+			}, 2000);
+		});
+		
+		$("#contactus").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#contact").offset().top
+			}, 2000);
+		});
+	</script>
+	<!-- End of Same Page Navigation Script -->
+</body>
+</html>
