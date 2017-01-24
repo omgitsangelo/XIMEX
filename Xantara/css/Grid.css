@@ -1,34 +1,31 @@
 @charset "UTF-8";
 /* Body */
+html{
+	height: 100%;
+}
 body {
+	height: 100%;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	background-color: #FFFFFF;
 	margin: 0;
 }
+.browse {
+	height: 100%;
+	width: 100%;
+}
+.header-container {
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.5);
+  padding: 0;
+  margin: 0;
+}
 /* Container */
 .container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #FFFFFF;
-}
-/* Header */
-header {
 	width: 100%;
-	height: 8%;
-	background-color: #5D5E5D;
-	border-bottom: 1px solid #353635;
-}
-.logo {
-	color: #fff;
-	font-weight: bold;
-	margin-left: auto;
-	letter-spacing: 4px;
-	margin-right: auto;
-	text-align: center;
-	padding-top: 15px;
-	line-height: 2em;
-	font-size: 22px;
+	margin: 0;
+	background-color: #FFFFFF;
 }
 .hero_header {
 	color: #FFFFFF;
@@ -38,7 +35,7 @@ header {
 }
 /* About Section */
 .text_column {
-	width: 90%;
+	width: 100%;
 	text-align: left;
 	font-weight: lighter;
 	line-height: 25px;
@@ -50,18 +47,16 @@ header {
 .gallery {
 	clear: both;
 	display: inline-block;
+	height: 100%;
 	width: 100%;
 	background-image: url(../images/browsewallpaper.jpg);
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	/* [disabled]min-width: 400px;
 */
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
+	padding: 0;
+	margin: 0;
 }
 .thumbnail {
 	width: 23%;
@@ -92,19 +87,23 @@ header {
 	padding-left: 20px;
 }
 /* More info */
+.about{
+	height: 100%;
+}
 .intro {
 	background-image: url("../images/aboutushome.jpg");
-	min-height: 500px;
 	background-attachment: fixed;
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 100%;
 }
 
 .column {
 	width: 50%;
 	text-align: center;
 	padding-top: 30px;
+	margin-top: 10%;
 	float: left;
 }
 .intro .column h2 {
@@ -170,17 +169,18 @@ header {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	border-top-width: 2px;
 }
-footer {
-	background-image: url(../images/footerbackground.png);
+#contact {
+	background-image: url("../images/footerbackground.png");
 	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	padding-top: 60px;
-	padding-bottom: 60PX;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding-top: 22%;
+	text-align: center;
+	height: 100%;
 }
 .intro {
 	display: inline-block;
@@ -199,30 +199,129 @@ footer {
 }
 /* Navigation Bar */
 ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
 	background-color: rgba(30,30,30,0.7);
 	position: fixed;
-	width: 81%;
+	width: 100%;
 	z-index: 500;
+	margin: 0;
+	padding: 14px 16px;
 }
 ul.topnav li {
 float: left;
+margin: 0;
 }
 ul.topnav li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-	margin: 0;
+		padding-right: 14px;
+		margin: 0;
 }
 ul.topnav li a:hover:not(.active) {
 	background-color: #111;
+
 }
 /* End of Navigation Bar */
 
+
+
+/* Slideshow container */
+.slideshow-container {
+	height: 100%;
+	position: relative;
+}
+
+/* Image Holders */
+.mySlides {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+
+/* Next & previous buttons */
+.prev-next {
+  display: table-cell;
+  width: 10%;
+  height: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0%;
+  width: 10%;
+  height: 100%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+a.prev, a.next {
+  position: float;
+  font-weight: bold;
+  vertical-align:middle;
+  text-align:center;
+  font-size: 50px;
+  color: white;
+  padding-top: 25%;
+}
+
+a.prev:hover, a.next:hover {
+  color: rgba(0,0,0,1);
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+								/* End of Slideshow Feature */
 
 /* Mobile */
 @media (max-width: 320px) {
@@ -254,8 +353,7 @@ ul.topnav li a:hover:not(.active) {
 	margin-top: 0px;
 }
 .hero_header {
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 100%;
 	line-height: 22px;
 	text-align: center;
 }
