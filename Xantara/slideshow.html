@@ -15,14 +15,14 @@
 </head>
 
 <body onLoad="showSlides(slideIndex)">
-    <div class="menu" id="header-container">
-      <ul class="topnav">
-        <li><a id="home" class="tablinks">Home</a></li>
-        <li><a id="browse" class="tablinks">Browse</a></li>
-        <li><a id="about" class="tablinks">About</a></li>
-        <li><a id="contactus" class="tablinks">Contact Us</a></li>
-      </ul>
-    </div>
+  <div class="menu" id="header-container">
+    <ul class="topnav">
+      <li><a id="home" class="tablinks">Home</a></li>
+      <li><a id="browse" class="tablinks">Browse</a></li>
+      <li><a id="about" class="tablinks">About</a></li>
+      <li><a id="contactus" class="tablinks">Contact Us</a></li>
+    </ul>
+  </div>
 
 	<div id="slideshow-container" class="row slideshow-container">
 		<div class="slideshow-container">
@@ -48,7 +48,7 @@
 
 		  <div class="mySlides fade">
         <div id="2" class="browse">
-          <div class="gallery">
+          <!-- <div class="gallery">
             <div class="thumbnail"> <a href="#"><img src="images/landscape-1470768620-perfect-fit-house-0916.jpg." alt="" width="2000" class="cards"/></a>
               <h4>PROPERTY 1</h4>
               <p class="tag">Property Location</p>
@@ -88,16 +88,22 @@
               <h4>PROPERTY 8</h4>
               <p class="tag">Property Location</p>
               <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
+            </div> -->
+						<div class="houses" id="menu">
+							<ul class="block">
+						 		<li><img id="sale" src="images/for sale.png" class="sale"></li>
+								<li><img id="rent" src="images/for rent.png" class="rent"></li>
+					 		</ul>
+				 		</div>
           </div>
-        </div>
-				<div class="text">
-					<span class="dot" onclick="currentSlide(1)"></span>
-				  <span class="dot" onclick="currentSlide(2)"></span>
-				  <span class="dot" onclick="currentSlide(3)"></span>
-				</div>
+					<div class="text">
+						<span class="dot" onclick="currentSlide(1)"></span>
+				  	<span class="dot" onclick="currentSlide(2)"></span>
+				  	<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
 				<div class="copyright">&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong></div>
-		  </div>
+		  	</div>
+			</div>
 
 		  <div class="mySlides fade">
         <div id="contact" class="container">

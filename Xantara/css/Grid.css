@@ -66,6 +66,21 @@ body {
 	padding: 0;
 	margin: 0;
 }
+#menu {
+  clear: both;
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/browsewallpaper.jpg);
+	background-attachment: fixed;
+	background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+	/* [disabled]min-width: 400px;*/
+	padding-top: 10%;
+  z-index: 1;
+  margin: 0;
+}
 .thumbnail {
 	width: 23%;
 	text-align: center;
@@ -118,6 +133,14 @@ body {
 	padding-top: 30px;
 	margin-top: 10%;
 	float: left;
+}
+ul.block {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  overflow: hidden;
 }
 .intro .column img {
 
@@ -220,7 +243,6 @@ ul.topnav {
 	width: 100%;
 	background-color: rgba(30,30,30,0.7);
   list-style-type: none;
-	list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
