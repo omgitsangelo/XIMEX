@@ -1,7 +1,15 @@
 @charset "UTF-8";
 /* Body */
+*
+{
+    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
 html{
 	height: 100%;
+	margin: 0;
 }
 body {
 	height: 100%;
@@ -10,7 +18,7 @@ body {
 	margin: 0;
 }
 .browse {
-	height: 100%;
+	height: 93%;
 	width: 100%;
 }
 .header-container {
@@ -50,11 +58,11 @@ body {
 	height: 100%;
 	width: 100%;
 	background-image: url(../images/browsewallpaper.jpg);
-  background-position: center;
+	background-attachment: fixed;
+	background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-	/* [disabled]min-width: 400px;
-*/
+	/* [disabled]min-width: 400px;*/
 	padding: 0;
 	margin: 0;
 }
@@ -89,14 +97,19 @@ body {
 /* More info */
 .about{
 	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 .intro {
-	background-image: url("../images/aboutushome.jpg");
+	background-image: url("../images/xantarabackground.jpg");
 	background-attachment: fixed;
-	background-position: center;
+	background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-	height: 100%;
+	height: 93%;
+	width: 100%;
+	margin-bottom: 0;
 }
 
 .column {
@@ -106,17 +119,13 @@ body {
 	margin-top: 10%;
 	float: left;
 }
-.intro .column h2 {
-	color: #FFFFFF;
-	text-align: center;
-	text-shadow: 2px 3px 5px #000000;
-}
 .intro .column img {
-	/* insert logo styles here */
+
+	padding-top: 10%;
 }
 .intro .column p {
 	color: #FFFFFF;
-	background-color: rgba(109, 199, 208, 0.3);
+	background-color: rgba(132, 125, 125, 0.7);
 }
 .cards {
 	width: 100%;
@@ -135,6 +144,7 @@ body {
 	margin-right: 20px;
 	width: 80%;
 	margin-top: 4%;
+	margin-bottom: 0;
 }
 .button {
 	width: 200px;
@@ -155,14 +165,16 @@ body {
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
+	background-color: rgba(102, 96, 96, 0.6);
 }
 .button:hover {
-	background-color: rgba(109, 199, 208, 0.5);
+	background-color: rgba(170, 145, 112, 0.6);
 	color: #FFFFFF;
 	cursor: pointer;
 }
 .copyright {
 	text-align: center;
+	vertical-align: middle;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: #717070;
@@ -171,6 +183,8 @@ body {
 	font-weight: lighter;
 	letter-spacing: 4px;
 	border-top-width: 2px;
+	height: 7%;
+	z-index: 500;
 }
 #contact {
 	background-image: url("../images/footerbackground.png");
@@ -180,10 +194,11 @@ body {
   background-size: cover;
 	padding-top: 22%;
 	text-align: center;
-	height: 100%;
+	height: 93%;
+	width: 100;
+	margin: 0;
 }
 .intro {
-	display: inline-block;
 	background-color: #6DC7D0;
 }
 .profile {
@@ -199,29 +214,34 @@ body {
 }
 /* Navigation Bar */
 ul.topnav {
-  list-style-type: none;
-	background-color: rgba(30,30,30,0.7);
-	position: fixed;
-	width: 100%;
 	z-index: 500;
-	margin: 0;
-	padding: 14px 16px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: rgba(30,30,30,0.7);
+  list-style-type: none;
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 ul.topnav li {
 float: left;
-margin: 0;
 }
 ul.topnav li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-		padding-right: 14px;
-		margin: 0;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
 }
-ul.topnav li a:hover:not(.active) {
-	background-color: #111;
-
+ul.topnav li a:hover {
+	background-color: #555;
+}
+ul.topnav li.icon {
+	display: none;
 }
 /* End of Navigation Bar */
 
@@ -238,6 +258,7 @@ ul.topnav li a:hover:not(.active) {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
+	margin: 0;
 }
 
 
@@ -279,13 +300,11 @@ a.prev:hover, a.next:hover {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 8%;
   width: 100%;
   text-align: center;
+	margin: 0;
 }
 
 /* The dots/bullets/indicators */
@@ -325,7 +344,7 @@ a.prev:hover, a.next:hover {
 
 /* Mobile */
 @media (max-width: 320px) {
-.logo {
+#logo {
 	width: 100%;
 	text-align: center;
 	margin-top: 13px;
@@ -357,11 +376,10 @@ a.prev:hover, a.next:hover {
 	line-height: 22px;
 	text-align: center;
 }
-}
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
-.logo {
+#logo {
 	width: 100%;
 	text-align: center;
 	margin-top: 13px;
