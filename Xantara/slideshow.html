@@ -12,6 +12,7 @@
 
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/slideshow.js"></script>
+	<script src="js/dropdown.js"></script>
 </head>
 
 <body onLoad="showSlides(slideIndex)">
@@ -51,14 +52,14 @@
 					<div class="dropdown">
 						<div class="main1">
 							<ul class="menu">
-								<li><a href="Page2.html" id="sale" class="links"><img src="images/for sale.png" class="clicks"></a></li>
+								<li><a class="links" onclick="dropdown()"><img src="images/for sale.png" id="sale" class="clicks"></a></li>
 							</ul>
 						</div>
-						<div class="main2">
+						<div class="main2" id="dropdownmenu">
 							<ul class="row2">
 								<li><a id="singleattached" class="houselinks">Single Attached</a></li>
 								<li><a id="duplex" class="houselinks">Duplex</a></li>
-							<li><a id="townhouse" class="houselinks">Townhouse</a></li>
+								<li><a id="townhouse" class="houselinks">Townhouse</a></li>
 							</ul>
 						</div>
 					</div>
@@ -116,7 +117,6 @@
 				scrollTop: $("#contact").offset().top
 			}, 2000);
 		});
-
 
 	</script>
 
