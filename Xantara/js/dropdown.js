@@ -8,15 +8,15 @@ $(document).ready(function(){
   $("div.dropdown").hover(
   function(){
     $("#sale").animate({
-      height: '300px',
-      width: '300px'
+      height: '20%',
+      width: '20%'
     });
     $("#dropdownmenu").fadeToggle();
   },
   function(){
     $("#sale").animate({
-      height: '250px',
-      width: '250px'
+    //  height: '50%',
+    //  width: '50%'
     });
     $("#dropdownmenu").fadeToggle();
   });
