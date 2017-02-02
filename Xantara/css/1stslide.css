@@ -1,0 +1,82 @@
+.about{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.intro {
+	background-image: url("../images/xantarabackground.jpg");
+	background-attachment: fixed;
+	background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 93%;
+	width: 100%;
+	margin-bottom: 0;
+}
+.column {
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 10%;
+	float: left;
+}
+.intro .column p {
+	width: 80%;
+	margin-left: 0px;
+  background: rgba(102, 96, 96, 0.6);
+}
+.profile {
+	width: 50%;
+}
+.intro .column img {
+
+	padding-top: 10%;
+}
+
+.intro .column img:hover {
+
+}
+
+.intro .column p {
+  color: #FFFFFF;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+	margin-bottom: 0;
+}
+
+@media (max-width: 320px) {
+
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+
+}
+@media (min-width: 321px)and (max-width: 767px) {
+  .column {
+  	width: 100%;
+  	margin-top: 0px;
+  }
+  .column {
+  	width: 100%;
+  	margin-left: 0px;
+  	margin-right: 0px;
+  }
+  .intro .column p {
+  	width: 90%;
+  	text-align: center;
+  	padding-left: 0px;
+  }
+}
+  @media (min-width: 768px) and (max-width: 1096px) {
+    .intro .column p {
+    	width: 80%;
+    }
+}

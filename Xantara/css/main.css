@@ -49,10 +49,6 @@ body {
 p {
   font-family: "MyriadPro";
 }
-.browse {
-	height: 93%;
-	width: 100%;
-}
 .header-container {
 	z-index: 20;
 	width: 100%;
@@ -62,19 +58,9 @@ p {
   margin: 0;
 }
 /* Container */
-.container {
-	width: 100%;
-	margin: 0;
-	background-color: #FFFFFF;
-}
-.hero_header {
-	color: #FFFFFF;
-	text-align: center;
-	margin: 0;
-	letter-spacing: 4px;
-}
+
 /* About Section */
-.text_column {
+/* .text_column {
 	width: 100%;
 	text-align: left;
 	font-weight: lighter;
@@ -94,7 +80,6 @@ p {
 	background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-	/* [disabled]min-width: 400px;*/
 	padding: 0;
 	margin: 0;
 }
@@ -126,203 +111,12 @@ p {
 	text-align: left;
 	padding-left: 20px;
 }
-/* More info */
-.about{
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-.intro {
-	background-image: url("../images/xantarabackground.jpg");
-	background-attachment: fixed;
-	background-position: top left;
-  background-repeat: no-repeat;
-  background-size: cover;
-	height: 93%;
-	width: 100%;
-	margin-bottom: 0;
-}
-.column {
-	text-align: center;
-	padding-top: 30px;
-	margin-top: 10%;
-	float: left;
-}
-.selection {
-  background-image: url("../images/browsewallpaper.jpg");
-	background-attachment: fixed;
-	background-position: top left;
-  background-repeat: no-repeat;
-  background-size: cover;
-	height: 93%;
-  width: 100%;
-	margin: 0 auto;
-  border: 3px solid black;
-}
-.dropdown {
-  z-index: 1;
-  display: block;
-	width: 55%;
-  height: 100%;
-	text-align: center;
-	margin: auto;
-  border: 3px solid black;
-}
-
-.main1 {
-  position: relative;
-  top: 30%;
-  margin: auto;
-  border: 3px solid blue;
-}
-.main2 {
-  margin-top: 18%;
-  display: none;
-  border: 3px solid red;
-}
-ul.menu {
-  list-style-type: none;
-  overflow: hidden;
-  text-align: center;
-  height: 50%;
-  vertical-align: center;
-  margin: auto;
-  position: relative;
-  top: 15%;
-  border: 3px solid red;
-}
-ul.menu li {
-  float: left;
-  width: 100%;
-  vertical-align: center;
-  margin: 0;
-  padding: 0;
-}
-.links img {
-  margin: auto;
-  display: block;
-  transition: 0.1s;
-}
-ul.row2 {
-  position: relative;
-  list-style-type: none;
-  overflow: hidden;
-  text-align: center;
-  z-index:50;
-}
-ul.row2 li {
-  float: left;
-}
-ul.row2 li a{
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  font-family: "MyriadPro";
-  padding-left: 35px;
-  padding-right: 35px;
-  display: block;
-  transition: 0.5s;
-}
-
-/*.main1 ul.menu img:hover {
-  width: 300px;
-  height: 300px;
-}*/
-.main2 ul.row2 li a:hover{
-  font-size: 50px;
-  transition: 0.5s;
-  transition-delay: 0.1s;
-
-}
-.intro .column img {
-
-	padding-top: 10%;
-}
-
-.intro .column img:hover {
-
-}
-.intro .column p {
-	color: #FFFFFF;
-	background-color: rgba(132, 125, 125, 0.7);
-}
 .cards {
 	width: 100%;
 	height: auto;
 	max-width: 400px;
 	max-height: 200px;
 	opacity: 0.8;
-}
-.intro .column p {
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: justify;
-	line-height: 25px;
-	font-weight: lighter;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 80%;
-	margin-top: 4%;
-	margin-bottom: 0;
-}
-.button {
-	width: 200px;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 0px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
-	transition: all 0.3s linear;
-	background-color: rgba(102, 96, 96, 0.6);
-}
-.button:hover {
-	background-color: rgba(170, 145, 112, 0.6);
-	color: #FFFFFF;
-	cursor: pointer;
-}
-.copyright {
-	text-align: center;
-	vertical-align: middle;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #717070;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 4px;
-	border-top-width: 2px;
-	height: 7%;
-	z-index: 2;
-}
-#contact {
-	background-image: url("../images/footerbackground.png");
-	background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-	padding-top: 22%;
-	text-align: center;
-	height: 93%;
-	width: 100;
-	margin: 0;
-}
-.intro {
-	background-color: #6DC7D0;
-}
-.profile {
-	width: 50%;
 }
 .gallery .thumbnail .tag {
 	color: black;
@@ -332,41 +126,7 @@ ul.row2 li a{
 	padding-left: 20px;
 	padding-right: 20px;
 }
-/* Navigation Bar */
-ul.topnav {
-	z-index: 20;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	background-color: rgba(30,30,30,0.7);
-  list-style-type: none;
-	list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-ul.topnav li {
-float: left;
-}
-ul.topnav li a {
-	display: inline-block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	transition: 0.3s;
-	font-size: 17px;
-}
-ul.topnav li a:hover {
-	background-color: #555;
-}
-ul.topnav li.icon {
-	display: none;
-}
-/* End of Navigation Bar */
-
-
-
+*/
 /* Slideshow container */
 .slideshow-container {
 	height: 100%;
@@ -381,7 +141,6 @@ ul.topnav li.icon {
 	background-size: cover;
 	margin: 0;
 }
-
 
 /* Next & previous buttons */
 .prev-next {
@@ -502,24 +261,12 @@ a.prev:hover, a.next:hover {
 	text-align: justify;
 	padding: 0;
 }
-.intro .column p {
-	width: 80%;
-	margin-left: 0px;
-}
+
 .text_column {
 	padding-left: 20px;
 }
 .thumbnail {
 	width: 100%;
-}
-.column {
-	width: 100%;
-	margin-top: 0px;
-}
-.hero_header {
-	width: 100%;
-	line-height: 22px;
-	text-align: center;
 }
 }
 /* Small Tablets */
@@ -562,10 +309,7 @@ a.prev:hover, a.next:hover {
 .thumbnail {
 	width: 100%;
 }
-.column {
-	width: 100%;
-	margin-top: 0px;
-}
+
 .thumbnail {
 	width: 100%;
 }
@@ -574,19 +318,11 @@ a.prev:hover, a.next:hover {
 	padding-right: 20px;
 	width: 90%;
 }
-.column {
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-}
+
 .profile {
 	width: 100%;
 }
-.intro .column p {
-	width: 90%;
-	text-align: center;
-	padding-left: 0px;
-}
+
 }
 
 /* Small Desktops */
@@ -624,7 +360,5 @@ a.prev:hover, a.next:hover {
 	margin: 0;
 	padding: 20px;
 }
-.intro .column p {
-	width: 80%;
-}
+
 }

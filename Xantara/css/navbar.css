@@ -1,0 +1,30 @@
+ul.topnav {
+	z-index: 20;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: rgba(30,30,30,0.7);
+  list-style-type: none;
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.topnav li {
+float: left;
+}
+ul.topnav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+ul.topnav li a:hover {
+	background-color: #555;
+}
+ul.topnav li.icon {
+	display: none;
+}

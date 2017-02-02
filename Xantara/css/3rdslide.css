@@ -1,0 +1,56 @@
+#contact {
+	background-image: url("../images/footerbackground.png");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding-top: 22%;
+	text-align: center;
+	height: 93%;
+	width: 100;
+	margin: 0;
+}
+.container {
+	width: 100%;
+	margin: 0;
+	background-color: #FFFFFF;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	background-color: rgba(102, 96, 96, 0.6);
+}
+.button:hover {
+	background-color: rgba(170, 145, 112, 0.6);
+	color: #FFFFFF;
+	cursor: pointer;
+}
+@media (max-width: 320px) {
+.hero_header {
+	width: 100%;
+	line-height: 22px;
+	text-align: center;
+}
+}

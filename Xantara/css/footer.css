@@ -1,0 +1,39 @@
+.copyright {
+	background-color: #717070;
+	color: #FFFFFF;
+	height: 7%;
+	z-index: 2;
+	font-weight: lighter;
+}
+.left {
+	height: 100%;
+	padding-left: 15px;
+}
+.left ul {
+}
+.left ul li p {
+	vertical-align: center;
+	line-height: 50px;
+}
+.left ul li{
+	display: inline-block;
+	float: left;
+	line-height: 50px;
+}
+.left ul li img {
+	height: 40px;
+	vertical-align: middle;
+}
+.center{
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	border-top-width: 2px;
+	letter-spacing: 4px;
+	height: 100%;
+}
+.right{
+	height: 100%;
+}
