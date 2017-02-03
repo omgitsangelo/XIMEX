@@ -2,42 +2,71 @@
 	margin: 0 auto;
   width: 100%;
   height: 93%;
+	overflow: hidden;
 }
 .leftscreen {
-  background-image: url(../images/Hidden-Trace-Subdivision-Neighborhood-Shreveport-LA-img4-large.jpg);
+  background-image: url(../images/gastonia-new-home-subdivision.jpg);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
+	background-attachment: fixed;
   margin: 0;
-  display: block;
+  display: inline-block;
   height: 100%;
-  filter: grayscale(75%) blur(1px);
   transition: 0.5s;
+	float: right;
 }
-.leftscreen:hover {
-  filter: none;
-}
-.leftscreen:hover img{
-}
-.leftscreen img {
-  padding-top: 8%;
-  margin: auto;
-  margin-right: 8%;
-  width: 30%;
-  display: block;
-  filter: none;
-}
+
 .rightscreen {
-  background-image: url(../images/XDEvillage2.jpg);
-  background-position: left;
+  background-image: url(../images/iStock_000006650982_Medium.jpg);
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+	background-attachment: fixed;
   margin: 0;
-  display: block;
+  display: inline-block;
   height: 100%;
-  filter: grayscale(75%) blur(1px);
   transition: 0.5s;
+}
+.rightscreen img {
+  padding-top: 8%;
+  margin: auto;
+  margin-left: 10%;
+  width: 20%;
+	display: block;
+}
+.leftscreen:hover img{
+	padding
+}
+.selection:hover .leftscreen {
+	width:0%;
+}
+.rightscreen:hover {
+	width:100%;
+	filter: none;
+}
+
+.leftscreen:hover {
+	width:100% !important;
+	filter: none;
+}
+.leftscreen:hover ~ .rightscreen {
+	width:0%;
+}
+/*
+.leftscreen:hover {
+
+	width: 100%;
+}
+.leftscreen:hover img{
+
+}
+.leftscreen:hover + .rightscreen {
+	width: 0;
 }
 .rightscreen:hover {
   filter: none;
+	width: 100%;
 }
+.rightscreen:hover + .leftscreen {
+} */

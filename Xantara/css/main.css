@@ -153,11 +153,11 @@ p {
   cursor: pointer;
   position: absolute;
   top: 0%;
-  width: 10%;
-  height: 100%;
+  width: 5%;
+  height: 93%;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  z-index: 15;
+  z-index: 3;
 }
 
 a.prev, a.next {
@@ -186,7 +186,6 @@ a.prev:hover, a.next:hover {
   width: 100%;
   text-align: center;
 	margin: 0;
-  z-index: 10;
 }
 
 /* The dots/bullets/indicators */

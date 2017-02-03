@@ -13,28 +13,34 @@
 	<link href="css/2ndslide.css" rel="stylesheet" type="text/css">
 	<link href="css/3rdslide.css" rel="stylesheet" type="text/css">
 	<link href="css/footer.css" rel="stylesheet" type="text/css">
-
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/slideshow.js"></script>
-	<script src="js/dropdown.js"></script>
 </head>
 
 <body onLoad="showSlides(slideIndex)">
-    <div class="menu" id="header-container">
-      <ul class="topnav">
-        <li><a id="home" class="tablinks">Home</a></li>
-        <li><a id="browse" class="tablinks">Browse</a></li>
-        <li><a id="about" class="tablinks">About</a></li>
-        <li><a id="contactus" class="tablinks">Contact Us</a></li>
-      </ul>
-    </div>
+
+		<!-- Start of Navigation bar -->
+
+	<div class="menu" id="header-container">
+    <ul class="topnav" id="mytopnav">
+      <li><a class="tablinks" onclick="currentSlide(1)">Home</a></li>
+      <li><a class="tablinks" onclick="currentSlide(2)">Explore</a></li>
+      <li><a class="tablinks" onclick="currentSlide(3)">Contact Us</a></li>
+			<li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
+    </ul>
+  </div>
+
+		<!-- End of Navigation Bar -->
+
+		<!-- Start of Slideshows -->
 
 	<div id="slideshow-container" class="row slideshow-container">
 		<div class="slideshow-container">
+
+			<!-- Slide 1: Home/About -->
+
 		  <div class="mySlides fade">
 				<div class="row about" id="1">
 					<div class="intro">
-             <div class="col-6 column">
+            <div class="col-6 column">
             	<img src="images/XANTARA DEV -transparent.png" class="profile">
 						</div>
             <div class="col-6 column">
@@ -42,92 +48,139 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
             </div>
 					</div>
-					<div class="text">
-						<span class="dot" onclick="currentSlide(1)"></span>
-						<span class="dot" onclick="currentSlide(2)"></span>
-						<span class="dot" onclick="currentSlide(3)"></span>
-					</div>
-						<div class="row copyright">
-							<div class="col-4 left">
-								<ul>
-									<li><a><img class="partners" src="images/budgetbotika_logo small.png"></a></li>
-									<li><a><img class="partners" src="images/UPEAST LOGO horizontal small.png"></a></li>
-									<li><a><img class="partners" src="images/XDE LOGISTICS - orange  transparent small.png"></a></li>
-								</ul>
-							</div>
-							<div class="col-4 center">
-								&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong>
-							</div>
-							<div class="col-4 right">
-								&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong>
-							</div>
-			  		</div>
+					<div class="row copyright">
+						<div class="col-4 left">
+							<ul>
+								<li><a href="http://budgetbotika.com/"><img class="partners" src="images/budgetbotika_logo small.png"></a></li>
+								<li><a href=""><img class="partners" src="images/UPEAST LOGO horizontal small.png"></a></li>
+								<li><a href="http://www.xde247.com.ph/"><img class="partners" src="images/XDE LOGISTICS - orange  transparent small.png"></a></li>
+							</ul>
+						</div>
+						<div class="col-4 center">
+							&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong>
+						</div>
+						<div class="col-4 right">
+							<ul>
+								<li><a><img class="partners" src="images/instagram.png"></a></li>
+								<li><a><img class="partners" src="images/twitter.png"></a></li>
+								<li><a><img class="partners" src="images/facebook.png"></a></li>
+							</ul>
+						</div>
 		  		</div>
 				</div>
+  		</div>
+
+			<!-- End of Slide 1 -->
+
+			<!-- Slide 2: Explore -->
 
 		  <div class="mySlides fade">
 				<div class="row selection">
-					<div class="col-6 leftscreen">
-						<div class="villagelogo1">
-							<img src="images/XDE VILLAGE LOGO VERTICAL lowres.png">
-						</div>
+					<div class="col-6 leftscreen" id="leftscreen">
 						<div class="villagelogo2">
 						</div>
 					</div>
-					<div class="col-6 rightscreen">
+					<div class="col-6 rightscreen" id="rightscreen">
+						<div class="villagelogo1">
+							<img src="images/XDE VILLAGE LOGO VERTICAL lowres.png">
+						</div>
 					</div>
 				</div>
-				<div class="col-12 copyright">&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong></div>
+				<div class="row copyright">
+					<div class="col-4 left">
+						<ul>
+							<li><a href="http://budgetbotika.com/"><img class="partners" src="images/budgetbotika_logo small.png"></a></li>
+							<li><a href=""><img class="partners" src="images/UPEAST LOGO horizontal small.png"></a></li>
+							<li><a href="http://www.xde247.com.ph/"><img class="partners" src="images/XDE LOGISTICS - orange  transparent small.png"></a></li>
+						</ul>
+					</div>
+					<div class="col-4 center">
+						&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong>
+					</div>
+					<div class="col-4 right">
+						<ul>
+							<li><a><img class="partners" src="images/instagram.png"></a></li>
+							<li><a><img class="partners" src="images/twitter.png"></a></li>
+							<li><a><img class="partners" src="images/facebook.png"></a></li>
+						</ul>
+					</div>
+				</div>
 		  </div>
 
+			<!-- End of Slide 2 -->
+
+			<!-- Slide 3: Contact Us -->
+
 		  <div class="mySlides fade">
-        <div id="contact" class="container">
-          <p class="hero_header">GET IN TOUCH WITH US</p>
-          <div class="button">CONTACT US </div>
-        </div>
-				<div class="text">
-					<span class="dot" onclick="currentSlide(1)"></span>
-				  <span class="dot" onclick="currentSlide(2)"></span>
-				  <span class="dot" onclick="currentSlide(3)"></span>
+        <div class="row container" id="contact">
+					<div class="col-4 forms" id="forms">
+						<form>
+							<label>
+								<p>First Name</p>
+								<input type="text" name="fname" required>
+							</label>
+							<label>
+								<p>Last Name</p>
+								<input type="text" name="lname" required>
+							</label>
+							<label>
+								<p>Email</p>
+								<input type="text" name="email" required>
+							</label>
+							<label>
+								<p>Message</p>
+								<textarea rows="10" cols="40" required></textarea>
+							</label>
+							<br>
+							<input type="submit">
+						</form>
+					</div>
+					<div class="col-8 contact">
+						<p class="hero_header" id="heroheader">GET IN TOUCH WITH US</p>
+          	<div class="button" id="contactus">
+							CONTACT US
+						</div>
+        	</div>
 				</div>
-				<div class="col-12 copyright">&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong></div>
+				<div class="row copyright">
+					<div class="col-4 left">
+						<ul>
+							<li><a href="http://www.budgetbotika.com/"><img class="partners" src="images/budgetbotika_logo small.png"></a></li>
+							<li><a href=""><img class="partners" src="images/UPEAST LOGO horizontal small.png"></a></li>
+							<li><a href="http://www.xde247.com.ph/"><img class="partners" src="images/XDE LOGISTICS - orange  transparent small.png"></a></li>
+						</ul>
+					</div>
+					<div class="col-4 center">
+						&copy;2017 - <strong>XANTARA DEVELOPMENT CORPORATION</strong>
+					</div>
+					<div class="col-4 right">
+						<ul>
+							<li><a><img class="partners" src="images/instagram.png"></a></li>
+							<li><a><img class="partners" src="images/twitter.png"></a></li>
+							<li><a><img class="partners" src="images/facebook.png"></a></li>
+						</ul>
+					</div>
+				</div>
 		  </div>
+
+			<!-- End of Slide 2 -->
+
+			<!-- Slider Controls -->
 
 		<div class="prev-next">
 		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 		</div>
+
+			<!-- End of Slider Controls -->
+
 	</div>
 </div>
-
-	<!-- Button to scroll down automatically -->
-	<script>
-		$("#services").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#services-container").offset().top
-			}, 2000);
-		});
-
-		$("#home").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#slideshow-container").offset().top
-			}, 2000);
-		});
-
-		$("#business_profile").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#business").offset().top
-			}, 2000);
-		});
-
-		$("#contact_us").click(function() {
-			$('html, body').animate({
-				scrollTop: $("#contact").offset().top
-			}, 2000);
-		});
-
-	</script>
-
+			<!-- End of Slideshows -->
 </body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/navbarjump.js"></script>
+<script src="js/contactus.js"></script>
 
 </html>

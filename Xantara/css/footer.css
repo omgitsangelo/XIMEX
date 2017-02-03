@@ -4,10 +4,12 @@
 	height: 7%;
 	z-index: 2;
 	font-weight: lighter;
+	z-index: 1000;
 }
 .left {
 	height: 100%;
 	padding-left: 15px;
+	z-index: 1000;
 }
 .left ul {
 }
@@ -36,4 +38,21 @@
 }
 .right{
 	height: 100%;
+}
+.right ul {
+}
+.right ul li p {
+	vertical-align: center;
+	line-height: 50px;
+}
+.right ul li{
+	display: inline-block;
+	float: right;
+	line-height: 50px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.right ul li img {
+	height: 40px;
+	vertical-align: middle;
 }

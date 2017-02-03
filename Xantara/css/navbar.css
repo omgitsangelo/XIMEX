@@ -9,10 +9,15 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+	display: block;
+	padding-left: auto;
+	padding-right: auto;
 }
+
 ul.topnav li {
-float: left;
+  display: inline-block;
 }
+
 ul.topnav li a {
 	display: inline-block;
 	color: #f2f2f2;
@@ -20,11 +25,45 @@ ul.topnav li a {
 	padding: 14px 16px;
 	text-decoration: none;
 	transition: 0.3s;
-	font-size: 17px;
+	font-size: 20px;
 }
+
 ul.topnav li a:hover {
-	background-color: #555;
+  background-color: #555;
+	cursor: pointer;
 }
+
 ul.topnav li.icon {
 	display: none;
+}
+
+/* End of Header */
+
+
+
+/* Mobile Version */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px)
+{
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }
