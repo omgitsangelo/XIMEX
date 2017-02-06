@@ -5,27 +5,17 @@
 	z-index: 2;
 	font-weight: lighter;
 	z-index: 1000;
+	overflow-y: hidden;
 }
 .left {
 	height: 100%;
-	padding-left: 15px;
-	z-index: 1000;
+	z-index: 5;
 }
-.left ul {
+.left div {
+	text-align: center;
+	padding: 2px 5px 5px 5px;
 }
-.left ul li p {
-	vertical-align: center;
-	line-height: 50px;
-}
-.left ul li{
-	display: inline-block;
-	float: left;
-	line-height: 50px;
-}
-.left ul li img {
-	height: 40px;
-	vertical-align: middle;
-}
+
 .center{
 	text-align: center;
 	vertical-align: middle;
@@ -37,22 +27,46 @@
 	height: 100%;
 }
 .right{
-	height: 100%;
 }
-.right ul {
+.right div {
+	text-align: center;
+	padding: 6px 5px 5px 5px;
 }
-.right ul li p {
-	vertical-align: center;
-	line-height: 50px;
+
+@media (max-width: 320px) {
+
+	[class*="col-"]	{
+  	float: left;
+  	width: 100%;
+	}
+	.copyright {
+		height: auto;
+	}
 }
-.right ul li{
-	display: inline-block;
-	float: right;
-	line-height: 50px;
-	padding-left: 2%;
-	padding-right: 2%;
+@media (min-width: 321px)and (max-width: 767px) {
+	[class*="col-"]	{
+  	float: left;
+  	width: 100%;
+	}
+	.copyright {
+		height: auto;
+	}
+	.left {
+	}
+	.partners {
+		height: 30px;
+
+	}
+	.social {
+		height: 10px;
+	}
 }
-.right ul li img {
-	height: 40px;
-	vertical-align: middle;
+@media (min-width: 768px) and (max-width: 1096px) {
+	[class*="col-"]	{
+  	float: left;
+  	width: 100%;
+	}
+	.copyright {
+		height: auto;
+	}
 }
