@@ -3,10 +3,8 @@ $(document).ready(function(){
     $("#heroheader").fadeOut();
     $("#forms").fadeIn();
     $("#contactus").fadeOut();
-
   });
-
-  $(".contact").hover(function(){
+  $("#forms").hover(null,function(){
     $("#heroheader").fadeIn();
     $("#forms").fadeOut();
     $("#contactus").fadeIn();
