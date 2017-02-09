@@ -37,11 +37,13 @@
 
 html{
 	height: 100%;
+  width: 100%;
 	margin: 0;
   font-family: "MyriadPro";
 }
 body {
 	height: 100%;
+  width: 100%;
 	font-family: "MyriadPro";
   background-color: #FFFFFF;
 	margin: 0;
@@ -59,74 +61,6 @@ p {
 }
 /* Container */
 
-/* About Section */
-/* .text_column {
-	width: 100%;
-	text-align: left;
-	font-weight: lighter;
-	line-height: 25px;
-	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: #A3A3A3;
-}
-.gallery {
-	clear: both;
-	display: inline-block;
-	height: 100%;
-	width: 100%;
-	background-image: url(../images/browsewallpaper.jpg);
-	background-attachment: fixed;
-	background-position: top left;
-  background-repeat: no-repeat;
-  background-size: cover;
-	padding: 0;
-	margin: 0;
-}
-.thumbnail {
-	width: 23%;
-	text-align: center;
-	float: left;
-	margin-top: 35px;
-	background-color: rgba(248, 248, 248, 0.1);
-	padding-bottom: 20px;
-	margin-left: 1%;
-	margin-right: 1%;
-	border-radius: 3px;
-	padding-top: 20px;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-}
-.gallery .thumbnail h4 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	color: rgba(45,45,45,1.00);
-	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.gallery .thumbnail p {
-	margin: 0;
-	color: #B3B3B3;
-	text-align: left;
-	padding-left: 20px;
-}
-.cards {
-	width: 100%;
-	height: auto;
-	max-width: 400px;
-	max-height: 200px;
-	opacity: 0.8;
-}
-.gallery .thumbnail .tag {
-	color: black;
-	padding-bottom: 4px;
-	padding-top: 4px;
-	text-align: left;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-*/
 /* Slideshow container */
 .slideshow-container {
 	height: 100%;
@@ -194,21 +128,7 @@ a.prev:hover, a.next:hover {
 	margin: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
+/* The bullets/indicators */
 
 /* Fading animation */
 .fade {
@@ -230,59 +150,68 @@ a.prev:hover, a.next:hover {
 								/* End of Slideshow Feature */
 
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 320px)
+{
 
-[class*="col-"] {
-  float: left;
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+  [class*="col-"] {
+    float: left;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-#logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-.text_column {
-	width: 100%;
-	text-align: justify;
-	padding: 0;
-}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #logo {
+  	width: 100%;
+  	text-align: center;
+  	margin-top: 13px;
+  	margin-right: 0px;
+  	margin-bottom: 0px;
+  	margin-left: 0px;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
 
-.text_column {
-	padding-left: 20px;
-}
-.thumbnail {
-	width: 100%;
-}
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 0%;
-  width: 5%;
-  height: 93%;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  z-index: 3;
-}
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    width: 10%;
+    height: 93%;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 3;
+  }
+  img.profile {
+    margin-top: 25%;
+    width: 85%
+  }
+  a.prev, a.next {
+    position: float;
+    font-weight: bold;
+    vertical-align:middle;
+    text-align:center;
+    font-size: 50px;
+    color: white;
+    padding-top: 60%;
+  }
 }
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
@@ -337,6 +266,32 @@ a.prev:hover, a.next:hover {
 
 .profile {
 	width: 100%;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0%;
+  width: 10%;
+  height: 93%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 3;
+}
+a.prev, a.next {
+  position: float;
+  font-weight: bold;
+  vertical-align:middle;
+  text-align:center;
+  font-size: 50px;
+  color: white;
+  padding-top: 50%;
 }
 }
 

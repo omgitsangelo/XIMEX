@@ -5,15 +5,24 @@
 	z-index: 2;
 	font-weight: lighter;
 	z-index: 1000;
-	overflow-y: hidden;
+	clear: both;
+	padding: 0;
+	margin: 0;
 }
 .left {
-	height: 100%;
 	z-index: 5;
+
 }
 .left div {
 	text-align: center;
-	padding: 2px 5px 5px 5px;
+}
+.copyright img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.pad {
+	padding-top: 2.5%;
 }
 
 .center{
@@ -22,15 +31,14 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-transform: uppercase;
-	border-top-width: 2px;
 	letter-spacing: 4px;
 	height: 100%;
+	font-size: 14px;
 }
 .right{
 }
 .right div {
 	text-align: center;
-	padding: 6px 5px 5px 5px;
 }
 
 @media (max-width: 320px) {
@@ -42,8 +50,11 @@
 	.copyright {
 		height: auto;
 	}
+	.partners {
+		height: 30px;
+	}
 }
-@media (min-width: 321px)and (max-width: 767px) {
+@media (min-width: 321px) and (max-width: 545px) {
 	[class*="col-"]	{
   	float: left;
   	width: 100%;
@@ -55,10 +66,16 @@
 	}
 	.partners {
 		height: 30px;
-
 	}
 	.social {
 		height: 10px;
+	}
+}
+@media (min-width: 546px) and (max-width: 767px) {
+	.left {
+	}
+	.center strong{
+
 	}
 }
 @media (min-width: 768px) and (max-width: 1096px) {

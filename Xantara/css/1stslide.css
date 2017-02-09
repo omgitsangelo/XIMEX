@@ -49,38 +49,114 @@
 	width: 80%;
 	margin-top: 4%;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 @media (max-width: 320px) {
 
+	.intro {
+		width: 100%;
+	}
+
 .column {
 	width: 100%;
 	margin-top: 0px;
+	padding-left: auto;
+	padding-right: auto;
+}
+.intro .column .profile {
+	height: 30%;
 }
 .intro .column p {
-	width: 90%;
+	width: 100%;
 	text-align: center;
-	padding-left: 0px;
-	font-size: 14px;
+	font-size: 12px;
+	text-align: justify;
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 }
-@media (min-width: 321px)and (max-width: 767px) {
+@media (min-width: 321px) and (max-width: 545px) {
+
+	html {
+		width: 100%;
+	}
+
+	#slideshow-container {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+
+	.intro .column .profile {
+		padding-top: 30%;
+		width: 80%;
+	}
   .column {
   	width: 100%;
-  	margin-top: 0px;
-  }
-  .column {
-  	width: 100%;
-  	margin-left: 0px;
-  	margin-right: 0px;
+  	margin: 0;
+		padding: 0;
   }
   .intro .column p {
   	width: 90%;
   	text-align: center;
   	padding-left: 0px;
-		font-size: 14px;
+		padding-right: 0px;
+		font-size: 12px;
+		text-align: justify;
   }
+	#mytopnav {
+		width: 100%;
+	}
+	.prev {
+		left: 1%;
+	}
+	.next {
+		right: 1%;
+	}
+}
+	@media (min-width: 546px) and (max-width: 767px) {
+	html {
+		width: 100%;
+	}
+
+	#slideshow-container {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+
+	.intro .column .profile {
+		padding-top: 30%;
+		width: 80%;
+	}
+	.column {
+		width: 100%;
+		margin: 0;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.intro .column p {
+		width: 90%;
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 14px;
+		text-align: justify;
+	}
+	#mytopnav {
+		width: 100%;
+	}
+	.prev {
+		left: 1%;
+	}
+	.next {
+		right: 1%;
+		}
 }
   @media (min-width: 768px) and (max-width: 1096px) {
     .intro .column p {

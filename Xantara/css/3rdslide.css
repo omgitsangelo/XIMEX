@@ -17,7 +17,7 @@
 	background-color: #FFFFFF;
 }
 .button {
-	width: 200px;
+	width: 15%;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-bottom: auto;
@@ -102,8 +102,42 @@ input[type=submit] {
 }
 @media (max-width: 320px) {
 .hero_header {
+	margin-top: 35%;
 	width: 100%;
 	line-height: 22px;
 	text-align: center;
+	font-size: 12px;
 }
+.button {
+	width: 50%;
+	font-size: 12px;
+}
+}
+@media (min-width: 321px) and (max-width: 545px) {
+	.hero_header {
+		margin-top: 35%;
+		width: 100%;
+		line-height: 22px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.button {
+		width: 50%;
+		font-size: 12px;
+	}
+}
+@media (min-width: 546px) and (max-width: 767px) {
+	.hero_header {
+		margin-top: 25%;
+		width: 100%;
+		line-height: 22px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.button {
+		width: 30%;
+		font-size: 14px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1096px) {
 }
