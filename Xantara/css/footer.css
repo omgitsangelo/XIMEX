@@ -8,6 +8,7 @@
 	clear: both;
 	padding: 0;
 	margin: 0;
+	overflow-y: hidden;
 }
 .left {
 	z-index: 5;
@@ -19,10 +20,6 @@
 .copyright img {
 	max-width: 100%;
 	max-height: 100%;
-}
-
-.pad {
-	padding-top: 2.5%;
 }
 
 .center{
@@ -39,6 +36,7 @@
 }
 .right div {
 	text-align: center;
+	line-height: 75px;
 }
 
 @media (max-width: 320px) {
@@ -72,18 +70,37 @@
 	}
 }
 @media (min-width: 546px) and (max-width: 767px) {
-	.left {
+	.copyright {
+		height: 18%;
 	}
-	.center strong{
-
+	.left {
+		line-height: 70px;
+	}
+	.logos {
+	}
+	.center {
+		padding-top: 1%;
+		font-size: 12px;
+	}
+	.right {
+		line-height: 70px;
 	}
 }
 @media (min-width: 768px) and (max-width: 1096px) {
 	[class*="col-"]	{
-  	float: left;
-  	width: 100%;
 	}
 	.copyright {
-		height: auto;
+		height: 7%;
+	}
+	.left {
+		line-height: 80px;
+	}
+	.center {
+		font-size: 12px;
+		text-align: center;
+		padding-top: 2%;
+	}
+	.right {
+		line-height: 75px;
 	}
 }
