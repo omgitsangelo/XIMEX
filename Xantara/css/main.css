@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "MyriadPro";
-  src: url('../fonts/MyriadPro.otf'),url('../fonts/MyriadPro.otf');;
+  src: url('../fonts/MyriadPro.otf'),url('../fonts/MyriadPro.otf');
 }
 
 [class*="col-"] {
@@ -106,7 +106,7 @@ a.prev, a.next {
   vertical-align:middle;
   text-align:center;
   font-size: 50px;
-  color: white;
+  color: black;
   padding-top: 25%;
 }
 
@@ -209,7 +209,7 @@ a.prev:hover, a.next:hover {
     vertical-align:middle;
     text-align:center;
     font-size: 50px;
-    color: white;
+    color: black;
     padding-top: 60%;
   }
 }
@@ -283,14 +283,15 @@ a.prev:hover, a.next:hover {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   z-index: 3;
+  color: black;
 }
 a.prev, a.next {
   position: float;
   font-weight: bold;
-  vertical-align:middle;
-  text-align:center;
+  vertical-align: middle;
+  text-align: center;
   font-size: 50px;
-  color: white;
+  color: black;
   padding-top: 40%;
 }
 }

@@ -25,7 +25,7 @@
       <li><a class="tablinks" onclick="currentSlide(2)">Explore</a></li>
       <li><a class="tablinks" onclick="currentSlide(3)">Contact Us</a></li>
 			<li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
-			<li><a class="login" onclick="">Log In</a></li>
+			<li><a class="login" href="login-index.html">Log In</a></li>
     </ul>
   </div>
 
