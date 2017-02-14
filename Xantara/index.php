@@ -45,8 +45,10 @@
             	<img src="images/XANTARA DEV -transparent.png" class="profile">
 						</div>
             <div class="col-6 column">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+							<p>XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.</p>
+							<p>A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.</p>
+							<p>Putting value and emphasis on the company’s most important resource – its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream – a roof over families and the security of having a home. </p>
+							<p>We give personal attention to the details of building design and construction, while providing day-to-day hands-on management.  We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.</p>
             </div>
 					</div>
 					<div class="row copyright">
@@ -78,13 +80,28 @@
 		  <div class="mySlides fade">
 				<div class="row selection">
 					<div class="col-6 leftscreen" id="leftscreen">
-						<div class="villagelogo2">
+						<div class="inforight">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
+						</div>
+						<div class="otherbrandlogo">
+							<img src="images/loremipsum.png" />
 						</div>
 					</div>
 					<div class="col-6 rightscreen" id="rightscreen">
-						<div class="villagelogo1">
-							<img src="images/XDE VILLAGE LOGO VERTICAL lowres.png">
+						<div class="xdelogo">
+							<img src="images/XDE VILLAGE LOGO VERTICAL lowerres.png" />
 						</div>
+						<div class="infoleft">
+							<p>XDE VILLAGE a vision by XIMEX CEO Mr. Jerome S. Ibanez developed into a CSR project to provide homes for the most important company resource it has - its PEOPLE!</p>
+							<p>Accessibly situated in the heart of Brgy. Laghuerta, Calamba, Laguna with a total of 23, 354.93 sq. m. of cultivable land area. There are initially 3 model houses on various lot measurements to choose from namely: <br/>
+							1) 6 units - Single detached <br />
+							2) 164 units - Duplex units <br />
+							3) 118 units - Townhouses <br /></p>
+							<p>Amenities includes: Swimming pool, basketball court , club house, day care center plus a commercial area that will be built well within the community making most if not all readily available for your needs or even business.</p>
+							<p>All made available to interested employees and an opportunity to own your own home from your XIMEX family for your family!</p>						</div>
 					</div>
 				</div>
 				<div class="row copyright">
