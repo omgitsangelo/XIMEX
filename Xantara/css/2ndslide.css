@@ -1,114 +1,60 @@
-.selection {
-	margin: 0 auto;
+.misvis-container {
   width: 100%;
-  height: 93%;
-	overflow: hidden;
-}
-.leftscreen {
-	width: 50%;
-  background-image: url(../images/gastonia-new-home-subdivision.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-	background-attachment: fixed;
-  margin: 0;
-  display: inline-block;
   height: 100%;
-  transition: 0.5s;
-	float: right;
-}
-
-.rightscreen {
-	width: 50%;
-  background-image: url(../images/iStock_000006650982_Medium.jpg);
-  background-position: bottom;
+  background-image: url("../images/misvisbackground.jpg");
+  background-attachment: fixed;
+	background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-	background-attachment: fixed;
-  margin: 0;
-  display: inline-block;
-  height: 100%;
-  transition: 0.5s;
+  padding: 5% 5%;
 }
-.xdelogo {
-	width: 50%;
-	float: left;
+.mission-container {
+  width: 100%
 }
-.selection:hover .leftscreen {
-	width:0%;
+.mission {
+  width: 60%;
+  padding: 2% 2%;
+  position: relative;
+  float: left;
 }
-.rightscreen:hover {
-	width:100%;
-	filter: none;
-}
-
-.leftscreen:hover {
-	width:100% !important;
-	filter: none;
-}
-.leftscreen:hover ~ .rightscreen {
-	width:0%;
-}
-
-.infoleft {
-	width: 50%;
-	height: 100%;
-	float: right;
-	display: none;
-	transition-delay: 1s;
-	transition: 1s;
-	margin-top: 6%;
-}
-.inforight {
-	width: 50%;
-	height: 100%;
-	float: left;
-	display: none;
-	margin-top: 6%;
-}
-.leftscreen img {
-	position: relative;
-  width: inherit;
-	display: block;
-	margin: 20% auto;
-}
-.rightscreen img {
-	position: relative;
-  width: inherit;
-	display: block;
-	margin: 25% auto;
-}
-.selection p {
-	background: rgba(70, 70, 70, 0.65);
-	text-align: justify;
-	color: #FFFFFF;
-	font-weight: lighter;
-	margin: 5% 3%;
-	padding: 1% 3%;
-	line-height: 20px;
-	font-weight: lighter;
-}
-
-.rightscreen:hover .infoleft {
-	display: block;
-}
-.leftscreen:hover .inforight {
-	display: block;
-}
-/*
-.leftscreen:hover {
-
-	width: 100%;
-}
-.leftscreen:hover img{
+.mission h1 {
+  font-size: 48px;
+  color: rgb(170, 146, 112);
+  float: left;
+  margin-left: 5%;
 
 }
-.leftscreen:hover + .rightscreen {
-	width: 0;
+.mission .textbox {
+  width: 100%;
+  height: 30%;
+  background: rgb(170, 146, 112);
+  border-radius: 1rem;
+  padding: 3% 3%;
+  margin-top: 6%;
 }
-.rightscreen:hover {
-  filter: none;
-	width: 100%;
+.vision-container {
+  width: 100%
 }
-.rightscreen:hover + .leftscreen {
-} */
+.vision {
+  width: 60%;
+  padding: 2% 2%;
+  position: relative;
+  float: right;
+}
+.vision h1 {
+  font-size: 48px;
+  color: rgb(89, 81, 81);
+  float: right;
+  margin-right: 5%;
+}
+.vision .textbox {
+  width: 100%;
+  height: 30%;
+  background: rgb(89, 81, 81);
+  border-radius: 1rem;
+  padding: 3% 3%;
+  margin-top: 6%;
+}
+.misvis-container p {
+  color: white;
+}

@@ -5,31 +5,27 @@
 	padding: 0;
 }
 .intro {
-	background-image: url("../images/xantarabackground.jpg");
+	background-image: url("../images/web fam1.jpg");
 	background-attachment: fixed;
-	background-position: top left;
+	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	height: 93%;
+	height: 100%;
 	width: 100%;
 	margin-bottom: 0;
 }
 .column {
 	text-align: center;
 	padding-top: 30px;
-	margin-top: 10%;
 	float: left;
+	margin-top: 5%;
 }
-.profile {
-	width: 50%;
-}
-.intro .column img {
-
-	padding-top: 10%;
+.intro img {
+	padding-top: 5%;
+	width: 36%;
 }
 
 .intro .column img:hover {
-
 }
 
 .intro .column p {
@@ -49,6 +45,10 @@
 @media (max-width: 320px) {
 
 	.intro {
+		width: 100%;
+	}
+	.intro img {
+		padding-top: 10%;
 		width: 100%;
 	}
 
@@ -90,7 +90,10 @@ strong {
 	.intro {
 		width: 100%;
 	}
-
+	.intro img {
+		padding-top: 15%;
+		width: 100%;
+	}
 	.intro .column .profile {
 		padding-top: 30%;
 		width: 80%;
@@ -132,10 +135,10 @@ strong {
 		height: auto;
 	}
 
-	.intro .column .profile {
+	.intro img {
 		padding-top: 5%;
 		margin-top: 5%;
-		width: 80%;
+		width: 100%;
 	}
 	.column {
 		width: 100%;
