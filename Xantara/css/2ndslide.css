@@ -1,7 +1,7 @@
 .misvis-container {
   width: 100%;
   height: 100%;
-  background-image: url("../images/misvisbackground.jpg");
+  background-image: url("../images/wood2000.jpg");
   background-attachment: fixed;
 	background-position: top left;
   background-repeat: no-repeat;
@@ -15,22 +15,23 @@
   width: 60%;
   padding: 2% 2%;
   position: relative;
-  float: left;
+  float: right;
+  margin-top: 7%;
 }
 .mission h1 {
   font-size: 48px;
-  color: rgb(170, 146, 112);
+  color: #e6e6e6;
   float: left;
   margin-left: 5%;
-
+  font-variant: small-caps;
 }
 .mission .textbox {
   width: 100%;
   height: 30%;
-  background: rgb(170, 146, 112);
+  background: rgb(89, 81, 81);
   border-radius: 1rem;
   padding: 3% 3%;
-  margin-top: 6%;
+  margin-top: 7%;
 }
 .vision-container {
   width: 100%
@@ -43,9 +44,10 @@
 }
 .vision h1 {
   font-size: 48px;
-  color: rgb(89, 81, 81);
-  float: right;
-  margin-right: 5%;
+  color: #e6e6e6;
+  float: left;
+  margin-left: 5%;
+  font-variant: small-caps;
 }
 .vision .textbox {
   width: 100%;
@@ -53,7 +55,7 @@
   background: rgb(89, 81, 81);
   border-radius: 1rem;
   padding: 3% 3%;
-  margin-top: 6%;
+  margin-top: 7%;
 }
 .misvis-container p {
   color: white;

@@ -5,7 +5,6 @@ ul.topnav {
 	width: 100%;
 	background-color: rgba(30,30,30,0.7);
   list-style-type: none;
-	list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -13,6 +12,7 @@ ul.topnav {
 	padding-left: auto;
 	padding-right: auto;
 	font-variant: small-caps;
+	transition: 0.5s;
 }
 
 ul.topnav li {
@@ -38,14 +38,24 @@ ul.topnav li a:hover {
 ul.topnav li.icon {
 	display: none;
 }
-
 ul.topnav li a.login
  {
 	position: absolute;
 	top: 0;
 	right: 2%;
 }
-
+ul.topnav li a.logout
+ {
+	position: absolute;
+	top: 0;
+	right: 2%;
+}
+ul.topnav li a.edit
+ {
+	position: absolute;
+	top: 0;
+	right: 11%;
+}
 /* End of Header */
 
 

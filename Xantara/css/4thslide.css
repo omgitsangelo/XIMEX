@@ -1,7 +1,7 @@
 #contact {
-	background-image: url("../images/footerbackground.png");
+	background-image: url("../images/grass1200.jpg");
 	background-attachment: fixed;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 	text-align: center;
@@ -59,17 +59,17 @@
 	display: none;
 }
 .hero_header {
-	color: #FFFFFF;
+	color: rgba(102, 96, 96, 1);
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
 	display: block;
 }
-h2 {
+.forms h2 {
 	color: rgba(170, 146, 112, 1);
 	font-variant: small-caps;
 }
-input[type=text], input[type=email] {
+.forms input[type=text], .forms input[type=email] {
 	width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -79,7 +79,7 @@ input[type=text], input[type=email] {
   box-sizing: border-box;
 	font-size: 16px;
 }
-textarea {
+.forms textarea {
   width: 75%;
   height: 150px;
   padding: 12px 20px;
@@ -90,7 +90,7 @@ textarea {
   font-size: 16px;
   resize: none;
 }
-input[type=submit] {
+.forms input[type=submit] {
   width: 75%;
   background-color: rgba(170, 146, 112, 1);
   color: white;
@@ -124,12 +124,12 @@ input[type=submit] {
 	margin-right: 0 auto;
 	width: 20%;
 }
-h2 {
+.forms h2 {
 	color: rgba(170, 146, 112, 1);
 	font-variant: small-caps;
 	font-size: 20px;
 }
-input[type=text], input[type=email] {
+.forms input[type=text], .forms input[type=email] {
 	width: 75%;
   padding: 3px 5px;
   margin: 8px 0;
@@ -139,7 +139,7 @@ input[type=text], input[type=email] {
   box-sizing: border-box;
 	font-size: 12px;
 }
-textarea {
+.forms textarea {
   width: 75%;
   height: 100px;
   padding: 12px 20px;
@@ -150,7 +150,7 @@ textarea {
   font-size: 12px;
   resize: none;
 }
-input[type=submit] {
+.forms input[type=submit] {
   width: 75%;
   background-color: rgba(170, 146, 112, 1);
   color: white;

@@ -7,13 +7,13 @@
 	<title>Xantara Development Corporation</title>
 
 	<!-- Header Style CSS -->
-  <link href="css/main.css?version=10" rel="stylesheet" type="text/css">
-	<link href="css/navbar.css?version=10" rel="stylesheet" type="text/css">
-	<link href="css/1stslide.css?version=10" rel="stylesheet" type="text/css">
-	<link href="css/2ndslide.css?version=10" rel="stylesheet" type="text/css">
-	<link href="css/3rdslide.css?version=10" rel="stylesheet" type="text/css">
-	<link href="css/4thslide.css?version=10" rel="stylesheet" type="text/css">
-	<link href="css/footer.css?version=10" rel="stylesheet" type="text/css">
+  <link href="css/main.css?version=1" rel="stylesheet" type="text/css">
+	<link href="css/navbar.css?version=1" rel="stylesheet" type="text/css">
+	<link href="css/1stslide.css?version=1" rel="stylesheet" type="text/css">
+	<link href="css/2ndslide.css?version=1.1" rel="stylesheet" type="text/css">
+	<link href="css/3rdslide.css?version=1" rel="stylesheet" type="text/css">
+	<link href="css/4thslide.css?version=1.1" rel="stylesheet" type="text/css">
+	<link href="css/footer.css?version=1" rel="stylesheet" type="text/css">
 </head>
 
 <body onLoad="showSlides(slideIndex)">
@@ -44,7 +44,9 @@
 				<div class="row about" id="1">
 					<div class="row intro">
             <div class="col-8">
-            	<img src="images/XANTARA DEV -transparent.png" class="profile">
+							<div class="profile-container">
+            		<img src="images/XANTARA DEV -transparent.png" class="profile">
+							</div>
 						</div>
             <div class="col-4 column">
 							<p>XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.</p>
