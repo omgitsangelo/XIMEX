@@ -3,9 +3,10 @@
 ?>
 <!-- Start of Sidenav -->
 <div class="sidenav mainsidenav">
-  <a href="javascript:void(0)" class="closebtn">&times;</a>
+  <p href="javascript:void(0)" class="closebtn">&times;</p>
   <ul class="ul-list">
-    <li><h2>Edit Menu</h2></li>
+    <li><h1 class="sidenavhead">Menu</h1></li>
+    <p> </p>
     <li>
       <label class="logosidenavbutton">
         <a>EDIT MENU</a>

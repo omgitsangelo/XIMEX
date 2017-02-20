@@ -10,26 +10,32 @@
         <label class="sidenav-buttons">Edit Text Color</label>
         <input class="inputs" type="text" value="<?php echo "hello world!" ?>">
       </li>
+      <br />
       <li>
         <label class="sidenav-buttons">Edit Text Size</label>
         <input class="inputs" type="text" value="<?php echo "hello world!" ?>">
       </li>
+      <br />
       <li>
         <label class="sidenav-buttons">Edit Textbox 1 Content</label>
         <input class="inputs" type="text" value="<?php echo "hello world!" ?>">
       </li>
+      <br />
       <li>
         <label class="sidenav-buttons">Edit Textbox 2 Content</label>
         <input class="inputs" type="text" value="<?php echo "hello world!" ?>">
       </li>
+      <br />
       <li>
         <label class="sidenav-buttons">Edit Textbox 3 Content</label>
         <input class="inputs" type="text" value="<?php echo "hello world!" ?>">
       </li>
+      <br />
       <li>
         <label class="sidenav-buttons">Edit Textbox 4 Content</label>
         <input class="inputs" type="text" value="<?php echo "hello world!" ?>">
       </li>
+      <br />
         <li>
         <label class="save-publish">
           <input class="save-button" type="submit" name="submitHeaderCaption">

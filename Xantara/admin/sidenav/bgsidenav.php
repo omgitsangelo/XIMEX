@@ -12,6 +12,7 @@
              Choose Background Image
         </label>
       </li>
+      <br />
       <li>
         <label class="save-publish">
             <input class="save-button" type="submit" name="submit">

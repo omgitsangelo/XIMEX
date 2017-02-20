@@ -14,7 +14,7 @@
 	<link href="../css/3rdslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/sidenav.css?version=1" rel="stylesheet" type="text/css">
+	<link href="../css/sidenav.css?version=2.7" rel="stylesheet" type="text/css">
 	<link href="../css/edit.css?version=2.2	" rel="stylesheet" type="text/css">
 </head>
 
@@ -221,7 +221,7 @@
 			<script src="../js/navbarjump.js?version=1.1"></script>
 			<script src="../js/contactus.js?version=1.1"></script>
 			<script src="../js/pushsidebar.js?version=1.1"></script>
-			<script src="../js/edit.js?version=1.4"></script>
+			<script src="../js/edit.js?version=1.5"></script>
 </body>
 
 

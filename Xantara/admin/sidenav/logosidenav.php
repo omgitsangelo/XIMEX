@@ -9,19 +9,21 @@
       <li>
         <label class="sidenav-buttons">
             <input class="upload-class" type="file" name="fileToUpload" id="fileToUpload" />
-             Choose Logo
+             <p>Choose Logo</p>
         </label>
       </li>
+      <br />
       <li>
         <label class="sidenav-buttons">
             <input class="inputs" type="text" value="<?php echo "hello world!"?>">
-             Edit Logo Size
+             <p>Edit Logo Size</p>
         </label>
       </li>
+      <br />
       <li>
         <label class="save-publish">
             <input class="save-button" type="submit" name="submit">
-             Save and Publish
+             <p>Save and Publish</p>
         </label>
       </li>
     </ul>

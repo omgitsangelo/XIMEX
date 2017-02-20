@@ -95,14 +95,13 @@ body
   font-size: 18px;
 }
 
-.sidenav {
+.cpanel {
   height: 100%;
   width: 20%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #1a1a1a;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 30px;
@@ -113,7 +112,7 @@ body
   background: linear-gradient(rgb(68, 68, 68), black); /* Standard syntax (must be last) */
 }
 
-.sidenav h2 {
+.cpanel h2 {
   text-align: center;
   color: #B3B3B3;
   padding: 5%;
@@ -127,7 +126,7 @@ body
   border-top: 1px solid rgba(140, 140, 140, 0.15);
 }
 
-.sidenav a {
+.cpanel a {
   border-bottom: 1px solid rgba(140, 140, 140, 0.15);
   padding: 5%;
   text-decoration: none;
@@ -141,7 +140,7 @@ body
   font-weight: bold;
 }
 
-.sidenav a:hover, .offcanvas a:focus{
+.cpanel a:hover{
   background-color: #ad8f73;
   color: #676060;
   font-weight: bold;
