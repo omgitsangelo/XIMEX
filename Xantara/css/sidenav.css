@@ -84,6 +84,15 @@ label.sidenav-buttons p:hover{
   width: 50%;
   transition: 0.5s;
 }
+label.save-publish p:hover{
+  background-color: #ad8f73;
+  color: #676060;
+  width: 50%;
+  transition: 0.5s;
+}
+.save-button {
+  display: none;
+}
 label.sidenav-buttons input[type=file] {
   display: none;
 }
