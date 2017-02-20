@@ -5,7 +5,7 @@
 <div id="BGSidenav" class="sidenav bgsidenav">
   <form action="upload.php" method="post" enctype="multipart/form-data">
     <ul class="ul-list">
-      <li><p style="color: white">Background Image</p></li>
+      <li><p style="font-size: 16px; padding-top: 10px; padding-bottom: 10px;">Background Image</p></li>
       <li>
         <label class="sidenav-buttons">
             <input class="upload-class" type="file" name="fileToUpload" id="fileToUpload" />
@@ -19,6 +19,7 @@
              Save and Publish
         </label>
       </li>
+      <br />
     </ul>
   </form>
 </div>

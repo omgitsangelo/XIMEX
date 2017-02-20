@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<?php include '../php/database.php' ?>
 <html>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +9,12 @@
 	<!-- Header Style CSS -->
   <link href="../css/main.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/1stslide.css?version=1.5" rel="stylesheet" type="text/css">
+	<link href="../css/1stslide.css?version=1.6" rel="stylesheet" type="text/css">
 	<link href="../css/2ndslide.css?version=3" rel="stylesheet" type="text/css">
 	<link href="../css/3rdslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/sidenav.css?version=2.7" rel="stylesheet" type="text/css">
+	<link href="../css/sidenav.css?version=2.8" rel="stylesheet" type="text/css">
 	<link href="../css/edit.css?version=2.2	" rel="stylesheet" type="text/css">
 </head>
 
@@ -59,10 +59,10 @@
 							</div>
 						</div>
             <div class="col-4 column">
-							<p>XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.</p>
-							<p>A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.</p>
-							<p>Putting value and emphasis on the company’s most important resource – its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream – a roof over families and the security of having a home.</p>
-							<p>We give personal attention to the details of building design and construction, while providing day-to-day hands-on management.  We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.</p>
+							<p><?php echo "$slide1textcontent1" ?></p>
+							<p><?php echo "$slide1textcontent2" ?></p>
+							<p><?php echo "$slide1textcontent3" ?></p>
+							<p><?php echo "$slide1textcontent4" ?></p>
 						</div>
 
 
@@ -221,7 +221,7 @@
 			<script src="../js/navbarjump.js?version=1.1"></script>
 			<script src="../js/contactus.js?version=1.1"></script>
 			<script src="../js/pushsidebar.js?version=1.1"></script>
-			<script src="../js/edit.js?version=1.5"></script>
+			<script src="../js/edit.js?version=1.7"></script>
 </body>
 
 

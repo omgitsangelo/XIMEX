@@ -22,6 +22,7 @@
   color: #B3B3B3;
   font-weight: bold;
   font-size: 25px;
+  cursor: pointer;
 }
 .sidenavhead {
   text-align: center;
@@ -54,6 +55,9 @@
   background: -moz-linear-gradient(#rgb(68, 68, 68), black); /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgb(68, 68, 68), black); /* Standard syntax (must be last) */
 }
+.mainsidenav::-webkit-scrollbar {
+    display: none;
+}
 .logosidenav, .bgsidenav, .textsidenav {
   height: 0;
   width: inherit;
@@ -72,6 +76,19 @@
 }
 ul .ul-list {
   list-style: none;
+  transition: 0.5s;
+}
+label.sidenav-buttons p:hover{
+  background-color: #ad8f73;
+  color: #676060;
+  width: 50%;
+  transition: 0.5s;
+}
+label.sidenav-buttons input[type=file] {
+  display: none;
+}
+label.sidenav-buttons input[type=text] {
+  padding: 5px;
 }
 
 @media screen and (max-height: 450px) {

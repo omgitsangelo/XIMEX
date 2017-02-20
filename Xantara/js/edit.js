@@ -3,9 +3,6 @@ $(".edit").click(function() {
   switch ( iteration) {
     case 1:
     $(".mainsidenav").css("width", "20%");
-    // $(".logosidenav").css("width", "100%");
-    // $(".textsidenav").css("width", "100%");
-    // $(".bgsidenav").css("width", "100%");
     $("#slideshow-container").css("margin-left", "20%");
     $("#slideshow-container").css("width", "80%");
     $(".topnav").css("margin-left", "20%");
@@ -14,9 +11,6 @@ $(".edit").click(function() {
 
     case 2:
     $(".mainsidenav").css("width", "0%");
-    // $(".logosidenav").css("width", "0%");
-    // $(".textsidenav").css("width", "0%");
-    // $(".bgsidenav").css("width", "0%");
     $("#slideshow-container").css("margin-left", "0%");
     $("#slideshow-container").css("width", "100%");
     $(".topnav").css("margin-left", "0% ");
@@ -77,6 +71,7 @@ $(".textsidenavbutton").click(function() {
 
     case 2:
     $(".textsidenav").css("height", "0");
+
     break;
   }
   iteration++;
