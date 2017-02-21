@@ -12,11 +12,6 @@
   transition: 0.5s;
   font-weight: bold;
 }
-.sidenav a:hover{
-  background-color: #ad8f73;
-  color: #676060;
-  font-weight: bold;
-}
 .closebtn {
   margin-left: 90%;
   color: #B3B3B3;
@@ -63,14 +58,12 @@
   width: inherit;
   overflow-x: hidden;
   padding-left: 10%;
-  border-bottom: 1px solid rgba(140, 140, 140, 0.15);
   text-decoration: none;
   font-family: "MyriadPro";
   font-size: 12px;
   font-variant: small-caps;
   letter-spacing: 2px;
   color: #B3B3B3;
-  transition: 0.4s;
   font-weight: bold;
   list-style: none;
 }
@@ -98,6 +91,19 @@ label.sidenav-buttons input[type=file] {
 }
 label.sidenav-buttons input[type=text] {
   padding: 5px;
+}
+.slide1submenu, .slide2submenu, .slide3submenu, .slide4submenu{
+  height: 0;
+  overflow-x: hidden;
+}
+.slide1submenu a, .slide2submenu a, .slide3submenu a, .slide4sidemenu a {
+  list-style: initial;
+  padding-left: 10%;
+}
+.sidenav a:hover{
+  background-color: #ad8f73;
+  color: #676060;
+  font-weight: bold;
 }
 
 @media screen and (max-height: 450px) {

@@ -3,7 +3,7 @@
 ?>
 <!-- Start of Text Sidenav -->
 <div id="TextSidenav" class="textsidenav">
-  <form action="../php/Header Php/update-header-values.php" method="post" enctype="multipart/form-data">
+  <form action="php/Header Php/update-header-values.php" method="post" enctype="multipart/form-data">
     <ul class="ul-list">
       <li><p style="font-size: 16px; padding-top: 10px; padding-bottom: 10px;">Header</p></li>
       <li>

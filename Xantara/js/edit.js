@@ -71,7 +71,66 @@ $(".textsidenavbutton").click(function() {
 
     case 2:
     $(".textsidenav").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".editslide1").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".slide1submenu").css("height", "20%");
+    break;
 
+    case 2:
+    $(".slide1submenu").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".editslide2").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".slide2submenu").css("height", "20%");
+    break;
+
+    case 2:
+    $(".slide2submenu").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".editslide3").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".slide3submenu").css("height", "20%");
+    break;
+
+    case 2:
+    $(".slide3submenu").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".editslide4").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".slide4submenu").css("height", "20%");
+    break;
+
+    case 2:
+    $(".slide4submenu").css("height", "0");
     break;
   }
   iteration++;

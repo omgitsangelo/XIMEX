@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php include '../php/database.php' ?>
+<?php include '../php/FetchData/FetchSlide1.php' ?>
 <html>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +15,8 @@
 	<link href="../css/3rdslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/sidenav.css?version=2.8" rel="stylesheet" type="text/css">
-	<link href="../css/edit.css?version=2.2	" rel="stylesheet" type="text/css">
+	<link href="../css/sidenav.css?version=4.1" rel="stylesheet" type="text/css">
+	<link href="../css/edit.css?version=2.3	" rel="stylesheet" type="text/css">
 </head>
 
 <body onLoad="showSlides(slideIndex)">
@@ -221,7 +222,7 @@
 			<script src="../js/navbarjump.js?version=1.1"></script>
 			<script src="../js/contactus.js?version=1.1"></script>
 			<script src="../js/pushsidebar.js?version=1.1"></script>
-			<script src="../js/edit.js?version=1.7"></script>
+			<script src="../js/edit.js?version=2"></script>
 </body>
 
 
