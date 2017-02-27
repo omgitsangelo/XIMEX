@@ -14,9 +14,15 @@
       <ul class="ul-list slide1submenu">
         <li>
           <label class="logosidenavbutton">
-            <a>Edit Logo</a>
+            <a>Edit Logo Image</a>
           </label>
           <?php include 'slide1/logosidenav.php'; ?>
+        </li>
+        <li>
+          <label class="logosizesidenavbutton">
+            <a>Edit Logo Size</a>
+          </label>
+          <?php include 'slide1/logosizesidenav.php'; ?>
         </li>
         <li>
           <label class="bgsidenavbutton">

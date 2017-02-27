@@ -5,7 +5,6 @@
 	padding: 0;
 }
 .intro {
-	background-image: url("../images/web fam1.jpg");
 	background-attachment: fixed;
 	background-position: center;
   background-repeat: no-repeat;
@@ -13,9 +12,6 @@
 	height: 100%;
 	width: 100%;
 	margin-bottom: 0;
-}
-.profile-container {
-	width: 36%;
 }
 .column {
 	text-align: center;

@@ -46,6 +46,22 @@ $(".logosidenavbutton").click(function() {
   $(this).data('iteration',iteration)
 });
 
+$(".logosizesidenavbutton").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".logosizesidenav").css("height", "20%");
+    break;
+
+    case 2:
+    $(".logosizesidenav").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+
 $(".bgsidenavbutton").click(function() {
   var iteration=$(this).data('iteration')||1
   switch ( iteration) {
