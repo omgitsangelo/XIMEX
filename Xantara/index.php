@@ -7,13 +7,16 @@
 	<title>Xantara Development Corporation</title>
 
 	<!-- Header Style CSS -->
-  <link href="css/main.css?version=1" rel="stylesheet" type="text/css">
-	<link href="css/navbar.css?version=1" rel="stylesheet" type="text/css">
-	<link href="css/1stslide.css?version=1" rel="stylesheet" type="text/css">
-	<link href="css/2ndslide.css?version=1.1" rel="stylesheet" type="text/css">
-	<link href="css/3rdslide.css?version=1" rel="stylesheet" type="text/css">
-	<link href="css/4thslide.css?version=1.1" rel="stylesheet" type="text/css">
-	<link href="css/footer.css?version=1" rel="stylesheet" type="text/css">
+	<link href="css/main.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="css/1stslide.css?version=1.6" rel="stylesheet" type="text/css">
+	<link href="css/2ndslide.css?version=3" rel="stylesheet" type="text/css">
+	<link href="css/3rdslide.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="css/footer.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="css/sidenav.css?version=4.2" rel="stylesheet" type="text/css">
+	<link href="css/edit.css?version=2.4	" rel="stylesheet" type="text/css">
+	<link href="css/php/1stslide.php?version=2	" rel="stylesheet" type="text/css">
 </head>
 
 <body onLoad="showSlides(slideIndex)">
