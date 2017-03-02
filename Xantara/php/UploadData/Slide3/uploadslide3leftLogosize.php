@@ -11,12 +11,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$size = $_POST['logosize'];
+$size = $_POST['sld3leftlogsize'];
 
-$query = "UPDATE slide1logo SET Slide1LogoSize = '$size'";
+$query = "UPDATE slide3leftlogo SET Slide3LeftLogoSize = '$size'";
 
 if ($conn->query($query) === TRUE) {
-    header("location: ../admin/adminindex.php");
+    header("location: ../../../admin/adminindex.php");
     exit();
 } else {
     echo "Error: " . $query . "<br>" . $conn->error;

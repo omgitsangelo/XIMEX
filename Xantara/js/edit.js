@@ -93,6 +93,7 @@ $(".textsidenavbutton").click(function() {
   if (iteration>2) iteration=1
   $(this).data('iteration',iteration)
 });
+
 $(".editslide1").click(function() {
   var iteration=$(this).data('iteration')||1
   switch ( iteration) {
@@ -108,6 +109,7 @@ $(".editslide1").click(function() {
   if (iteration>2) iteration=1
   $(this).data('iteration',iteration)
 });
+
 $(".editslide2").click(function() {
   var iteration=$(this).data('iteration')||1
   switch ( iteration) {
@@ -117,6 +119,36 @@ $(".editslide2").click(function() {
 
     case 2:
     $(".slide2submenu").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".slide2bg").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".bgsidenav2").css("height", "20%");
+    break;
+
+    case 2:
+    $(".bgsidenav2").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".slide2text").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".textsidenav2").css("height", "20%");
+    break;
+
+    case 2:
+    $(".textsidenav2").css("height", "0");
     break;
   }
   iteration++;

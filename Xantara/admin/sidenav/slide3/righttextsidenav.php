@@ -1,7 +1,7 @@
-<?php include '../../php/FetchData/FetchSlide1.php'; ?>
+<?php include '../../php/FetchData/FetchSlide3.php'; ?>
 <!-- Start of Text Sidenav -->
 <div id="TextSidenav" class="textsidenav">
-  <form action="../../php/UploadData/Slide1/uploadslide1Text.php" method="post" enctype="multipart/form-data">
+  <form action="../../php/UploadData/Slide3/uploadslide3rightText.php" method="post" enctype="multipart/form-data">
     <ul class="ul-list">
       <li><p style="font-size: 16px; padding-top: 10px; padding-bottom: 10px;">Header</p></li>
       <li>
@@ -36,7 +36,7 @@
       <br />
         <li>
         <label class="save-publish">
-          <input class="save-button" type="submit" name="submitSlide1Values">
+          <input class="save-button" type="submit" name="submitSlide3Values">
           Save and Publish
         </label>
       </li>

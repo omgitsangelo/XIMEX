@@ -13,3 +13,7 @@
 .profile-container {
 	width: <?php echo "$slide1logosize" ?>%;
 }
+.intro .column p {
+  color: <?php echo $slide1textcolor?>;
+  font-size:<?php echo $slide1textsize?>px;
+}

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php include '../php/database.php' ?>
 <?php include '../php/FetchData/FetchSlide1.php' ?>
+<?php include '../php/FetchData/FetchSlide2.php' ?>
+<?php include '../php/FetchData/FetchSlide3.php' ?>
+<?php include '../php/FetchData/FetchSlide4.php' ?>
 <?php include '../php/FetchData/FetchSlide1Logo.php' ?>
 <html>
 	<meta charset="utf-8">
@@ -16,9 +19,12 @@
 	<link href="../css/3rdslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/sidenav.css?version=4.2" rel="stylesheet" type="text/css">
-	<link href="../css/edit.css?version=2.4	" rel="stylesheet" type="text/css">
-	<link href="../css/php/1stslide.php?version=2	" rel="stylesheet" type="text/css">
+	<link href="../css/sidenav.css?version=4.3" rel="stylesheet" type="text/css">
+	<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
+	<link href="../css/php/1stslide.php?version=3.1	" rel="stylesheet" type="text/css">
+	<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
+	<link href="../css/php/3rdslide.php?version=3.1	" rel="stylesheet" type="text/css">
+	<link href="../css/php/4thslide.php?version=3.1	" rel="stylesheet" type="text/css">
 </head>
 
 <body onLoad="showSlides(slideIndex)">
@@ -85,7 +91,7 @@
 					    <div class="mission">
 					      <h1>Mission</h1>
 								<div class="textbox">
-						      <p>To be able to provide quality and affordable homes over each XIMEX employees, ensuring families are safe and secured in the comforts of their own home.</p>
+						      <p><?php echo "$slide2missiontextcontent" ?></p>
 								</div>
 					    </div>
 						</div>
@@ -95,7 +101,7 @@
 					    <div class="vision">
 					      <h1>Vision</h1>
 								<div class="textbox">
-					      	<p>Develop the best possible community for the XDE employees across the country by 2020.</p>
+					      	<p><?php echo "$slide2visiontextcontent" ?></p>
 								</div>
 					    </div>
 						</div>
@@ -224,7 +230,7 @@
 			<script src="../js/navbarjump.js?version=1.1"></script>
 			<script src="../js/contactus.js?version=1.1"></script>
 			<script src="../js/pushsidebar.js?version=1.1"></script>
-			<script src="../js/edit.js?version=3"></script>
+			<script src="../js/edit.js?version=3.1"></script>
 </body>
 
 

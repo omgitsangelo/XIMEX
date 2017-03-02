@@ -1,7 +1,6 @@
 .misvis-container {
   width: 100%;
   height: 100%;
-  background-image: url("../images/wood2000.jpg");
   background-attachment: fixed;
 	background-position: top left;
   background-repeat: no-repeat;
@@ -19,8 +18,6 @@
   margin-top: 7%;
 }
 .mission h1 {
-  font-size: 48px;
-  color: #e6e6e6;
   float: left;
   margin-left: 5%;
   font-variant: small-caps;
@@ -28,7 +25,6 @@
 .mission .textbox {
   width: 100%;
   height: 30%;
-  background: rgb(89, 81, 81);
   border-radius: 1rem;
   padding: 3% 3%;
   margin-top: 7%;
@@ -43,8 +39,6 @@
   float: right;
 }
 .vision h1 {
-  font-size: 48px;
-  color: #e6e6e6;
   float: left;
   margin-left: 5%;
   font-variant: small-caps;

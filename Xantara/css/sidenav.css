@@ -53,7 +53,7 @@
 .mainsidenav::-webkit-scrollbar {
     display: none;
 }
-.logosidenav, .logosizesidenav, .bgsidenav, .textsidenav {
+.logosidenav, .logosizesidenav, .bgsidenav, .textsidenav, .bgsidenav2, .textsidenav2 {
   height: 0;
   width: inherit;
   overflow-x: hidden;

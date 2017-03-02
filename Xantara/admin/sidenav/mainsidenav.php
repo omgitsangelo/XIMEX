@@ -44,14 +44,16 @@
       </label>
       <ul class="ul-list slide2submenu">
         <li>
-          <label class="">
+          <label class="slide2bg">
             <a>Edit Background</a>
           </label>
+          <?php include 'slide2/bgsidenav.php'; ?>
         </li>
         <li>
-          <label class="">
+          <label class="slide2text">
             <a>Edit Text</a>
           </label>
+          <?php include 'slide2/textsidenav.php'; ?>
         </li>
       </ul>
     </li>

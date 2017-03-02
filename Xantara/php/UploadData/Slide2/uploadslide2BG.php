@@ -1,10 +1,10 @@
 <?php
-$target_dir = "../Upload/Slide1/Background/";
+$target_dir = "../../../Upload/Slide2/Background/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 0;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
-if(isset($_POST["submitSlide1BG"])) {
+if(isset($_POST["submitSlide2BG"])) {
   $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
   if($check !== false) {
       echo "File is an image - " . $check["mime"] . ".";
@@ -38,7 +38,7 @@ if ($uploadOk == 0) {
 } else {
   if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
     echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
-    $path = "../Upload/Slide1/Background/" . basename( $_FILES["fileToUpload"]["name"]);
+    $path = "../../../Upload/Slide2/Background/" . basename( $_FILES["fileToUpload"]["name"]);
 
     $server = 'localhost';
     $username = 'root';
@@ -47,13 +47,13 @@ if ($uploadOk == 0) {
 
     $conn = new mysqli($server, $username, $password, $dbname);
 
-    $path = "Upload/Slide1/Background/" . basename( $_FILES["fileToUpload"]["name"]);
+    $path = "Upload/Slide2/Background/" . basename( $_FILES["fileToUpload"]["name"]);
 
     $path =  mysqli_real_escape_string($conn, $path);
 
-    $select = "Update slide1bg set Slide1BGPathIsActive = 0 where Slide1BGPathIsActive = 1;";
+    $select = "Update slide2bg set Slide2BGPathIsActive = 0 where Slide2BGPathIsActive = 1;";
     // $select .= "INSERT INTO slide1bg(Slide1BGPath)VALUES('$path');";
-    $select .= "Update slide1bg set Slide1BGPathIsActive = 1 where Slide1BGPath =  '$path'";
+    $select .= "Update slide2bg set Slide2BGPathIsActive = 1 where Slide2BGPath =  '$path'";
 
     if(!$conn->multi_query($select))
     {
@@ -63,8 +63,8 @@ if ($uploadOk == 0) {
     }
     else
     {
-      echo $path;
-      echo "Path saved";
+      header("location: ../../../admin/adminindex.php");
+      exit();
     }
   }
 }
