@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 27, 2017 at 11:04 AM
+-- Generation Time: Mar 02, 2017 at 10:30 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -34,7 +34,7 @@ CREATE TABLE `slide1` (
   `Slide1TextContent4` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
   `Slide1TextSize` int(11) NOT NULL,
   `Slide1TextColor` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide1IsActive` tinyint(1) DEFAULT NULL
+  `Slide1IsActive` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
 --
@@ -42,7 +42,15 @@ CREATE TABLE `slide1` (
 --
 
 INSERT INTO `slide1` (`Slide1ID`, `Slide1TextContent1`, `Slide1TextContent2`, `Slide1TextContent3`, `Slide1TextContent4`, `Slide1TextSize`, `Slide1TextColor`, `Slide1IsActive`) VALUES
-(1, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#FFFFFF', 1);
+(1, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#FFFFFF', 0),
+(2, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 20, '#408080', 0),
+(3, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 22, '#008000', 0),
+(4, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#ffffff', 0),
+(5, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#ffffff', 0),
+(6, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#408080', 0),
+(7, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#ffffff', 0),
+(8, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#408080', 0),
+(9, 'XANTARA DEVELOPMENT CORPORATION is first and foremost a partnership established with XIMEX Group of Companies to provide quality residences at the lowest possible range exclusively for qualified employees.', 'A brain child of CEO Mr. Ibanez, and as part of the initial engagement of Xantara Development Corporation with the Ximex group, the XDE Village Project is just one of several real estate development programs which it intends to complete in the coming years.', 'Putting value and emphasis on the company\'s most important resource - its people, a simple yet grand testimony of faith to its people, the Village realizes a part of a dream - a roof over families and the security of having a home.', 'We give personal attention to the details of building design and construction, while providing day-to-day hands-on management. We always ensure the building meets or exceeds client expectations, and we maintain full contact after the contract is signed.', 16, '#ffffff', 1);
 
 -- --------------------------------------------------------
 
@@ -101,53 +109,64 @@ INSERT INTO `slide1logo` (`Slide1LogoPathID`, `Slide1LogoPath`, `Slide1LogoPathI
 CREATE TABLE `slide2` (
   `Slide2ID` int(11) NOT NULL,
   `Slide2MissionHeaderColor` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
-  `Slide2MissionHeaderSize` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
-  `Slide2MissionTextboxColor` int(11) DEFAULT NULL,
+  `Slide2MissionHeaderSize` int(45) DEFAULT NULL,
+  `Slide2MissionTextboxColor` varchar(11) COLLATE utf8_hungarian_ci DEFAULT NULL,
   `Slide2MissionTextColor` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
-  `Slide2MissionTextContent` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
+  `Slide2MissionTextContent` varchar(400) COLLATE utf8_hungarian_ci DEFAULT NULL,
   `Slide2VisionHeaderColor` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
-  `Slide2VisionHeaderSize` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
+  `Slide2VisionHeaderSize` int(45) DEFAULT NULL,
   `Slide2VisionTextboxColor` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
   `Slide2VisionTextColor` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
-  `Slide2VisionTextContent` varchar(45) COLLATE utf8_hungarian_ci DEFAULT NULL,
+  `Slide2VisionTextContent` varchar(400) COLLATE utf8_hungarian_ci DEFAULT NULL,
   `Slide2IsActive` tinyint(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
+--
+-- Dumping data for table `slide2`
+--
+
+INSERT INTO `slide2` (`Slide2ID`, `Slide2MissionHeaderColor`, `Slide2MissionHeaderSize`, `Slide2MissionTextboxColor`, `Slide2MissionTextColor`, `Slide2MissionTextContent`, `Slide2VisionHeaderColor`, `Slide2VisionHeaderSize`, `Slide2VisionTextboxColor`, `Slide2VisionTextColor`, `Slide2VisionTextContent`, `Slide2IsActive`) VALUES
+(1, '#FFFFFF', 48, '#595151', '#FFFFFF', 'To be able to provide quality and affordable homes over each XIMEX employees, ensuring families are safe and secured in the comforts of their own home.', '#FFFFFF', 48, '#595151', '#FFFFFF', 'Develop the best possible community for the XDE employees across the country by 2020.', 1);
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `slide2background`
+-- Table structure for table `slide2bg`
 --
 
-CREATE TABLE `slide2background` (
-  `Slide2BackgroundID` int(11) NOT NULL,
-  `Slide2BackgroundPath` varchar(200) COLLATE utf8_hungarian_ci DEFAULT NULL,
-  `Slide2BackgroundIsActive` tinyint(1) DEFAULT NULL
+CREATE TABLE `slide2bg` (
+  `Slide2BGPathID` int(11) NOT NULL,
+  `Slide2BGPath` varchar(400) CHARACTER SET utf8 NOT NULL,
+  `Slide2BGPathIsActive` tinyint(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
+--
+-- Dumping data for table `slide2bg`
+--
+
+INSERT INTO `slide2bg` (`Slide2BGPathID`, `Slide2BGPath`, `Slide2BGPathIsActive`) VALUES
+(1, 'Upload/Slide2/Background/wood2000.jpg', 1),
+(2, 'Upload/Slide2/Background/webfam1standard.jpg', 0);
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `slide3`
+-- Table structure for table `slide3left`
 --
 
-CREATE TABLE `slide3` (
-  `Slide3ID` int(11) NOT NULL,
+CREATE TABLE `slide3left` (
+  `Slide3LeftID` int(11) NOT NULL,
   `Slide3LeftTextBGColor` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
   `Slide3LeftTextColor` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
   `Slide3LeftTextSize` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3LeftText1Content` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3LeftText2Content` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3LeftText3Content` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3LeftText4Content` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3RightTextBGColor` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3RightTextColor` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3RightTextSize` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3RightTextContent1` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3RightTextContent2` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3RightTextContent3` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3RightTextContent4` varchar(200) COLLATE utf8_hungarian_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+  `Slide3LeftText1Content` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3LeftText2Content` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3LeftText3Content` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3LeftText4Content` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
+  `IsActive` tinyint(1) NOT NULL,
+  `IsApproved` tinyint(1) NOT NULL,
+  `IsDefault` tinyint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci ROW_FORMAT=COMPACT;
 
 -- --------------------------------------------------------
 
@@ -158,7 +177,9 @@ CREATE TABLE `slide3` (
 CREATE TABLE `slide3leftbg` (
   `Slide3LeftBGID` int(11) NOT NULL,
   `Slide3LeftBGPath` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
-  `Slide3LeftBGIsActive` tinyint(1) NOT NULL
+  `Slide3LeftBGIsActive` tinyint(1) NOT NULL,
+  `IsApproved` int(11) NOT NULL,
+  `IsDefault` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
 -- --------------------------------------------------------
@@ -172,6 +193,23 @@ CREATE TABLE `slide3leftlogo` (
   `Slide3LeftLogoPath` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
   `Slide3LeftLogoSize` int(11) DEFAULT NULL,
   `Slide3LeftLogoIsActive` tinyint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `slide3right`
+--
+
+CREATE TABLE `slide3right` (
+  `Slide3RightID` int(11) NOT NULL,
+  `Slide3RightTextBGColor` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3RightTextColor` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3RightTextSize` varchar(45) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3RightTextContent1` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3RightTextContent2` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3RightTextContent3` varchar(500) COLLATE utf8_hungarian_ci NOT NULL,
+  `Slide3RightTextContent4` varchar(500) COLLATE utf8_hungarian_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
 -- --------------------------------------------------------
@@ -272,16 +310,16 @@ ALTER TABLE `slide2`
   ADD PRIMARY KEY (`Slide2ID`);
 
 --
--- Indexes for table `slide2background`
+-- Indexes for table `slide2bg`
 --
-ALTER TABLE `slide2background`
-  ADD PRIMARY KEY (`Slide2BackgroundID`);
+ALTER TABLE `slide2bg`
+  ADD PRIMARY KEY (`Slide2BGPathID`);
 
 --
--- Indexes for table `slide3`
+-- Indexes for table `slide3left`
 --
-ALTER TABLE `slide3`
-  ADD PRIMARY KEY (`Slide3ID`);
+ALTER TABLE `slide3left`
+  ADD PRIMARY KEY (`Slide3LeftID`);
 
 --
 -- Indexes for table `slide3leftbg`
@@ -294,6 +332,12 @@ ALTER TABLE `slide3leftbg`
 --
 ALTER TABLE `slide3leftlogo`
   ADD PRIMARY KEY (`Slide3LeftLogoID`);
+
+--
+-- Indexes for table `slide3right`
+--
+ALTER TABLE `slide3right`
+  ADD PRIMARY KEY (`Slide3RightID`);
 
 --
 -- Indexes for table `slide3rightbg`
@@ -327,7 +371,7 @@ ALTER TABLE `slide4bg`
 -- AUTO_INCREMENT for table `slide1`
 --
 ALTER TABLE `slide1`
-  MODIFY `Slide1ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `Slide1ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `slide1bg`
 --
@@ -342,17 +386,17 @@ ALTER TABLE `slide1logo`
 -- AUTO_INCREMENT for table `slide2`
 --
 ALTER TABLE `slide2`
-  MODIFY `Slide2ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Slide2ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT for table `slide2background`
+-- AUTO_INCREMENT for table `slide2bg`
 --
-ALTER TABLE `slide2background`
-  MODIFY `Slide2BackgroundID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `slide2bg`
+  MODIFY `Slide2BGPathID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT for table `slide3`
+-- AUTO_INCREMENT for table `slide3left`
 --
-ALTER TABLE `slide3`
-  MODIFY `Slide3ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `slide3left`
+  MODIFY `Slide3LeftID` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `slide3leftbg`
 --
@@ -363,6 +407,11 @@ ALTER TABLE `slide3leftbg`
 --
 ALTER TABLE `slide3leftlogo`
   MODIFY `Slide3LeftLogoID` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `slide3right`
+--
+ALTER TABLE `slide3right`
+  MODIFY `Slide3RightID` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `slide3rightbg`
 --
