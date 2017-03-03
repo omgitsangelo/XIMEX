@@ -6,7 +6,6 @@
 }
 .leftscreen {
 	width: 50%;
-  background-image: url(../images/gastonia-new-home-subdivision.jpg);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,10 +16,8 @@
   transition: 0.5s;
 	float: right;
 }
-
 .rightscreen {
 	width: 50%;
-  background-image: url(../images/iStock_000006650982_Medium.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,19 +32,19 @@
 	float: left;
 }
 .selection:hover .leftscreen {
-	width:0%;
+	width: 0%;
 }
 .rightscreen:hover {
-	width:100%;
+	width: 100%;
 	filter: none;
 }
 
 .leftscreen:hover {
-	width:100% !important;
+	width: 100% !important;
 	filter: none;
 }
 .leftscreen:hover ~ .rightscreen {
-	width:0%;
+	width: 0%;
 }
 
 .infoleft {

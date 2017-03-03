@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['submitSlide1Values']))
+if(isset($_POST['submitSlide3RightValues']))
 {
   $server = 'localhost';
   $username = 'root';
@@ -14,19 +14,20 @@ if(isset($_POST['submitSlide1Values']))
       die("Connection failed: " . $conn->connect_error);
   }
 
-  $textcolor = $_POST['sld1txtcol'];
-  $textsize = $_POST['sld1txtsize'];
-  $text1 = $_POST['sld1txt1'];
-  $text2 = $_POST['sld1txt2'];
-  $text3 = $_POST['sld1txt3'];
-  $text4 = $_POST['sld1txt4'];
+  $slide3righttextbgcolor = $_POST['sld3righttxtbgcol'];
+  $slide3righttextcolor = $_POST['sld3righttxtcol'];
+  $slide3righttextsize = $_POST['sld3lefttxtsize'];
+  $slide3righttext1content = $_POST['sld3righttxtboxcon1'];
+  $slide3righttext2content = $_POST['sld3righttxtboxcon2'];
+  $slide3righttext3content = $_POST['sld3righttxtboxcon3'];
+  $slide3righttext4content = $_POST['sld3righttxtboxcon4'];
 
-  $text1 =  mysqli_real_escape_string($conn, $text1);
-  $text2 =  mysqli_real_escape_string($conn, $text2);
-  $text3 =  mysqli_real_escape_string($conn, $text3);
-  $text4 =  mysqli_real_escape_string($conn, $text4);
-  $query = "UPDATE slide1 SET Slide1IsActive = 0 WHERE Slide1IsActive = 1;";
-  $query .= "INSERT INTO slide1(Slide1TextContent1, Slide1TextContent2, Slide1TextContent3, Slide1TextContent4, Slide1TextSize, Slide1TextColor, Slide1IsActive) VALUES('$text1', '$text2', '$text3', '$text4', '$textsize', '$textcolor', 1)";
+  $slide3righttext1content =  mysqli_real_escape_string($conn, $slide3righttext1content);
+  $slide3righttext2content =  mysqli_real_escape_string($conn, $slide3righttext2content);
+  $slide3righttext3content =  mysqli_real_escape_string($conn, $slide3righttext3content);
+  $slide3righttext4content =  mysqli_real_escape_string($conn, $slide3righttext4content);
+  $query = "UPDATE slide3right SET Slide3RightIsActive = 0 WHERE Slide3RightIsActive = 1;";
+  $query .= "INSERT INTO slide3right(/*Slide3RightTextBGColor, */Slide3RightTextColor, Slide3RightTextSize, Slide3LeftRight1Content, Slide3RightText2Content, Slide3RightText3Content, Slide3RightText4Content, Slide3RightIsActive) VALUES(/*'$slide3righttextbgcolor', */'$slide3righttextcolor', '$slide3righttextsize', '$slide3righttext1content', '$slide3righttext2content', '$slide3righttext3content', '$slide3righttext4content', 1)";
 
   if (!$conn->multi_query($query)) {
     //header("location: ../admin/adminindex.php");

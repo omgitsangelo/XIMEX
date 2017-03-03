@@ -170,6 +170,150 @@ $(".editslide3").click(function() {
   if (iteration>2) iteration=1
   $(this).data('iteration',iteration)
 });
+$(".editslide3left").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".slide3leftsubmenu").css("height", "auto");
+    break;
+
+    case 2:
+    $(".slide3leftsubmenu").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".editslide3right").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".slide3rightsubmenu").css("height", "auto");
+    break;
+
+    case 2:
+    $(".slide3rightsubmenu").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".slide3leftbg").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".bgsidenav3left").css("height", "auto");
+    break;
+
+    case 2:
+    $(".bgsidenav3left").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});$(".slide3leftlogo").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".logosidenav3left").css("height", "auto");
+    break;
+
+    case 2:
+    $(".logosidenav3left").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});$(".slide3leftlogosize").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".logosizesidenav3left").css("height", "auto");
+    break;
+
+    case 2:
+    $(".logosizesidenav3left").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});$(".slide3lefttxt").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".textsidenav3left").css("height", "auto");
+    break;
+
+    case 2:
+    $(".textsidenav3left").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".slide3rightbg").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".bgsidenav3right").css("height", "auto");
+    break;
+
+    case 2:
+    $(".bgsidenav3right").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});$(".slide3rightlogo").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".logosidenav3right").css("height", "auto");
+    break;
+
+    case 2:
+    $(".logosidenav3right").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});$(".slide3rightlogosize").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".logosizesidenav3right").css("height", "auto");
+    break;
+
+    case 2:
+    $(".logosizesidenav3right").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});$(".slide3righttxt").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".textsidenav3right").css("height", "auto");
+    break;
+
+    case 2:
+    $(".textsidenav3right").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
 $(".editslide4").click(function() {
   var iteration=$(this).data('iteration')||1
   switch ( iteration) {

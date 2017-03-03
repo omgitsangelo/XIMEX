@@ -53,7 +53,7 @@
 .mainsidenav::-webkit-scrollbar {
     display: none;
 }
-.logosidenav, .logosizesidenav, .bgsidenav, .textsidenav, .bgsidenav2, .textsidenav2 {
+.logosidenav, .logosizesidenav, .bgsidenav, .textsidenav, .bgsidenav2, .textsidenav2, .bgsidenav3left, .logosidenav3left, .logosizesidenav3left, .textsidenav3left, .bgsidenav3right, .logosidenav3right, .logosizesidenav3right, .textsidenav3right, .slide3leftsubmenu, .slide3rightsubmenu {
   height: 0;
   width: inherit;
   overflow-x: hidden;
@@ -105,7 +105,12 @@ label.sidenav-buttons input[type=text] {
   color: #676060;
   font-weight: bold;
 }
-
+.slide3leftsubmenu, .slide3rightsubmenu{
+  margin-left: -10%;
+}
+.slide3leftsubmenu a, .slide3rightsubmenu a{
+  padding-left: 15%;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}

@@ -1,14 +1,14 @@
 <?php include '../../php/FetchData/FetchSlide3.php'; ?>
 <!-- Start of Text Sidenav -->
-<div id="TextSidenav" class="textsidenav">
+<div id="TextSidenav" class="sidenav textsidenav3left">
   <form action="../../php/UploadData/Slide3/uploadslide3leftText.php" method="post" enctype="multipart/form-data">
     <ul class="ul-list">
       <li><p style="font-size: 16px; padding-top: 10px; padding-bottom: 10px;">Header</p></li>
-      <li>
+      <!-- <li>
         <label class="sidenav-buttons">Edit Text Background Color</label>
         <input class="inputs" name="sld3lefttxtbgcol" type="color" value="<?php echo "$slide3lefttextbgcolor" ?>">
       </li>
-      <br />
+      <br /> -->
       <li>
         <label class="sidenav-buttons">Edit Text Color</label>
         <input class="inputs" name="sld3lefttxtcol" type="color" value="<?php echo "$slide3lefttextcolor" ?>">

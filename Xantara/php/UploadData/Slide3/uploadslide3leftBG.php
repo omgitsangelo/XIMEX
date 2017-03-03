@@ -51,9 +51,9 @@ if ($uploadOk == 0) {
 
     $path =  mysqli_real_escape_string($conn, $path);
 
-    $select = "Update slide3leftbg set Slide3LeftBGPathIsActive = 0 where Slide3LeftBGPathIsActive = 1;";
+    $select = "Update slide3leftbg set Slide3LeftBGIsActive = 0 where Slide3LeftBGIsActive = 1;";
     // $select .= "INSERT INTO slide1bg(Slide1BGPath)VALUES('$path');";
-    $select .= "Update slide3leftbg set Slide3LeftBGPathIsActive = 1 where Slide3LeftBGPath =  '$path'";
+    $select .= "Update slide3leftbg set Slide3LeftBGIsActive = 1 where Slide3LeftBGPath =  '$path'";
 
     if(!$conn->multi_query($select))
     {

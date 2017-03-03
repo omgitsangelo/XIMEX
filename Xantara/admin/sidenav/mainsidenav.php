@@ -63,14 +63,66 @@
       </label>
       <ul class="ul-list slide3submenu">
         <li>
-          <label class="">
+          <label class="editslide3left">
             <a>Edit Left Screen</a>
           </label>
+          <ul class="ul-list slide3leftsubmenu">
+            <li>
+              <label class="slide3leftbg">
+                <a>Edit Background</a>
+              </label>
+              <?php include 'slide3/leftbgsidenav.php'; ?>
+            </li>
+            <li>
+              <label class="slide3leftlogo">
+                <a>Edit Logo</a>
+              </label>
+              <?php include 'slide3/leftlogosidenav.php'; ?>
+            </li>
+            <li>
+              <label class="slide3leftlogosize">
+                <a>Edit Logo Size</a>
+              </label>
+              <?php include 'slide3/leftlogosizesidenav.php'; ?>
+            </li>
+            <li>
+              <label class="slide3lefttxt">
+                <a>Edit Text Content</a>
+              </label>
+              <?php include 'slide3/lefttextsidenav.php'; ?>
+            </li>
+          </ul>
         </li>
         <li>
-          <label class="">
+          <label class="editslide3right">
             <a>Edit Right Screen</a>
           </label>
+          <ul class="ul-list slide3rightsubmenu">
+            <li>
+              <label class="slide3rightbg">
+                <a>Edit Background</a>
+              </label>
+              <?php include 'slide3/rightbgsidenav.php'; ?>
+            </li>
+            <li>
+              <label class="slide3rightlogo">
+                <a>Edit Logo</a>
+              </label>
+              <?php include 'slide3/rightlogosidenav.php'; ?>
+            </li>
+            <li>
+              <label class="slide3rightlogosize">
+                <a>Edit Logo Size</a>
+              </label>
+              <?php include 'slide3/rightlogosizesidenav.php'; ?>
+            </li>
+            <li>
+              <label class="slide3righttxt">
+                <a>Edit Text Content</a>
+              </label>
+              <?php include 'slide3/righttextsidenav.php'; ?>
+            </li>
+          </ul>
         </li>
       </ul>
     </li>

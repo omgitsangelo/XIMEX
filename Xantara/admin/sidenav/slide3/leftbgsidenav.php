@@ -2,7 +2,7 @@
 
 ?>
 <!-- Start of Logo Sidenav -->
-<div id="BGSidenav" class="sidenav bgsidenav">
+<div id="BGSidenav" class="sidenav bgsidenav3left">
   <form action="../../php/UploadData/Slide3/uploadslide3leftBG.php" method="post" enctype="multipart/form-data">
     <ul class="ul-list">
       <li><p style="font-size: 16px; padding-top: 10px; padding-bottom: 10px;">Background Image</p></li>

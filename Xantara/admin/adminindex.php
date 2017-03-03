@@ -2,7 +2,10 @@
 <?php include '../php/database.php' ?>
 <?php include '../php/FetchData/FetchSlide1.php' ?>
 <?php include '../php/FetchData/FetchSlide2.php' ?>
-<?php include '../php/FetchData/FetchSlide3.php' ?>
+<?php include '../php/FetchData/FetchSlide3Left.php' ?>
+<?php include '../php/FetchData/FetchSlide3LeftLogo.php' ?>
+<?php include '../php/FetchData/FetchSlide3Right.php' ?>
+<?php include '../php/FetchData/FetchSlide3RightLogo.php' ?>
 <?php include '../php/FetchData/FetchSlide4.php' ?>
 <?php include '../php/FetchData/FetchSlide1Logo.php' ?>
 <html>
@@ -16,14 +19,14 @@
 	<link href="../css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/1stslide.css?version=1.6" rel="stylesheet" type="text/css">
 	<link href="../css/2ndslide.css?version=3" rel="stylesheet" type="text/css">
-	<link href="../css/3rdslide.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="../css/3rdslide.css?version=1.8" rel="stylesheet" type="text/css">
 	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/sidenav.css?version=4.3" rel="stylesheet" type="text/css">
+	<link href="../css/sidenav.css?version=4.9" rel="stylesheet" type="text/css">
 	<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
 	<link href="../css/php/1stslide.php?version=3.1	" rel="stylesheet" type="text/css">
 	<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
-	<link href="../css/php/3rdslide.php?version=3.1	" rel="stylesheet" type="text/css">
+	<link href="../css/php/3rdslide.php?version=3.6	" rel="stylesheet" type="text/css">
 	<link href="../css/php/4thslide.php?version=3.1	" rel="stylesheet" type="text/css">
 </head>
 
@@ -117,10 +120,10 @@
 				<div class="row selection">
 					<div class="col-6 leftscreen" id="leftscreen">
 						<div class="inforight">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat sodales arcu, bibendum faucibus orci fermentum sit amet. Curabitur tempor faucibus ligula, vitae ornare ipsum facilisis ac. Nulla ornare tempus ipsum non vestibulum. Curabitur mattis sem mauris, a congue ipsum mattis semper. Aliquam sed ante tortor. Vivamus quis pharetra nulla.</p>
+							<p><?php echo "$slide3righttext1content" ?></p>
+							<p><?php echo "$slide3righttext2content" ?></p>
+							<p><?php echo "$slide3righttext3content" ?></p>
+							<p><?php echo "$slide3righttext4content" ?></p>
 						</div>
 						<div class="otherbrandlogo">
 							<img src="../images/loremipsum.png" />
@@ -131,13 +134,11 @@
 							<img src="../images/XDE VILLAGE LOGO VERTICAL lowerres.png" />
 						</div>
 						<div class="infoleft">
-							<p>XDE VILLAGE a vision by XIMEX CEO Mr. Jerome S. Ibanez developed into a CSR project to provide homes for the most important company resource it has - its PEOPLE!</p>
-							<p>Accessibly situated in the heart of Brgy. Laghuerta, Calamba, Laguna with a total of 23, 354.93 sq. m. of cultivable land area. There are initially 3 model houses on various lot measurements to choose from namely: <br/>
-							1) 6 units - Single detached <br />
-							2) 164 units - Duplex units <br />
-							3) 118 units - Townhouses <br /></p>
-							<p>Amenities includes: Swimming pool, basketball court , club house, day care center plus a commercial area that will be built well within the community making most if not all readily available for your needs or even business.</p>
-							<p>All made available to interested employees and an opportunity to own your own home from your XIMEX family for your family!</p>						</div>
+							<p><?php echo "$slide3lefttext1content" ?></p>
+							<p><?php echo "$slide3lefttext2content" ?></p>
+							<p><?php echo "$slide3lefttext3content" ?></p>
+							<p><?php echo "$slide3lefttext4content" ?></p>
+						</div>
 					</div>
 				</div>
 		  </div>
@@ -230,7 +231,7 @@
 			<script src="../js/navbarjump.js?version=1.1"></script>
 			<script src="../js/contactus.js?version=1.1"></script>
 			<script src="../js/pushsidebar.js?version=1.1"></script>
-			<script src="../js/edit.js?version=3.1"></script>
+			<script src="../js/edit.js?version=3.3"></script>
 </body>
 
 

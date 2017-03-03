@@ -2,7 +2,7 @@
 
 ?>
 <!-- Start of Logo Sidenav -->
-<div id="LogoSizeSidenav" class="sidenav logosizesidenav">
+<div id="LogoSizeSidenav" class="sidenav logosizesidenav3left">
   <form action="../../php/UploadData/Slide3/uploadslide3leftLogosize.php" method="post" enctype="multipart/form-data">
     <ul class="ul-list">
       <li><p style="font-size: 16px; padding-top: 10px; padding-bottom: 10px;">Logo Image</p></li>
