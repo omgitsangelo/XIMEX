@@ -329,3 +329,48 @@ $(".editslide4").click(function() {
   if (iteration>2) iteration=1
   $(this).data('iteration',iteration)
 });
+$(".editslide4bg").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".bgsidenav4").css("height", "20%");
+    break;
+
+    case 2:
+    $(".bgsidenav4").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".editslide4contact").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".contactussidenav").css("height", "20%");
+    break;
+
+    case 2:
+    $(".contactussidenav").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});
+$(".editslide4form").click(function() {
+  var iteration=$(this).data('iteration')||1
+  switch ( iteration) {
+    case 1:
+    $(".formsidenav").css("height", "20%");
+    break;
+
+    case 2:
+    $(".formsidenav").css("height", "0");
+    break;
+  }
+  iteration++;
+  if (iteration>2) iteration=1
+  $(this).data('iteration',iteration)
+});

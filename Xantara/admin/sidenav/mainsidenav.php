@@ -132,14 +132,22 @@
       </label>
       <ul class="ul-list slide4submenu">
         <li>
-          <label class="">
-            <a>Edit Contact Us</a>
+          <label class="editslide4bg">
+            <a>Edit Background</a>
           </label>
+          <?php include 'slide4/bgsidenav.php'; ?>
         </li>
         <li>
-          <label class="">
+          <label class="editslide4contact">
+            <a>Edit Contact Us</a>
+          </label>
+          <?php include 'slide4/contactussidenav.php'; ?>
+        </li>
+        <li>
+          <label class="editslide4form">
             <a>Edit Forms</a>
           </label>
+          <?php include 'slide4/formsidenav.php'; ?>
         </li>
       </ul>
     </li>

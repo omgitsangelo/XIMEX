@@ -53,7 +53,7 @@
 .mainsidenav::-webkit-scrollbar {
     display: none;
 }
-.logosidenav, .logosizesidenav, .bgsidenav, .textsidenav, .bgsidenav2, .textsidenav2, .bgsidenav3left, .logosidenav3left, .logosizesidenav3left, .textsidenav3left, .bgsidenav3right, .logosidenav3right, .logosizesidenav3right, .textsidenav3right, .slide3leftsubmenu, .slide3rightsubmenu {
+.logosidenav, .logosizesidenav, .bgsidenav, .textsidenav, .bgsidenav2, .textsidenav2, .bgsidenav3left, .logosidenav3left, .logosizesidenav3left, .textsidenav3left, .bgsidenav3right, .logosidenav3right, .logosizesidenav3right, .textsidenav3right, .slide3leftsubmenu, .slide3rightsubmenu, .bgsidenav4, .contactussidenav, .formsidenav {
   height: 0;
   width: inherit;
   overflow-x: hidden;
@@ -96,7 +96,7 @@ label.sidenav-buttons input[type=text] {
   height: 0;
   overflow-x: hidden;
 }
-.slide1submenu a, .slide2submenu a, .slide3submenu a, .slide4sidemenu a {
+.slide1submenu a, .slide2submenu a, .slide3submenu a, .slide4submenu a {
   list-style: initial;
   padding-left: 10%;
 }

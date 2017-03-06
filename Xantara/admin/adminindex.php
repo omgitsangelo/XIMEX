@@ -17,14 +17,14 @@
 	<!-- Header Style CSS -->
   <link href="../css/main.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/1stslide.css?version=1.6" rel="stylesheet" type="text/css">
-	<link href="../css/2ndslide.css?version=3" rel="stylesheet" type="text/css">
+	<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
+	<link href="../css/2ndslide.css?version=3.5" rel="stylesheet" type="text/css">
 	<link href="../css/3rdslide.css?version=1.8" rel="stylesheet" type="text/css">
 	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
-	<link href="../css/sidenav.css?version=4.9" rel="stylesheet" type="text/css">
+	<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
 	<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
-	<link href="../css/php/1stslide.php?version=3.1	" rel="stylesheet" type="text/css">
+	<link href="../css/php/1stslide.php?version=3.2	" rel="stylesheet" type="text/css">
 	<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
 	<link href="../css/php/3rdslide.php?version=3.6	" rel="stylesheet" type="text/css">
 	<link href="../css/php/4thslide.php?version=3.1	" rel="stylesheet" type="text/css">
@@ -231,7 +231,7 @@
 			<script src="../js/navbarjump.js?version=1.1"></script>
 			<script src="../js/contactus.js?version=1.1"></script>
 			<script src="../js/pushsidebar.js?version=1.1"></script>
-			<script src="../js/edit.js?version=3.3"></script>
+			<script src="../js/edit.js?version=3.4"></script>
 </body>
 
 

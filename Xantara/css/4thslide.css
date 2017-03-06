@@ -55,11 +55,12 @@
 	text-align: left;
 	margin-top: 10%;
 	background-color: rgba(30,30,30,0.7);
+	background-color:
 	color: white;
 	display: none;
 }
 .hero_header {
-	color: rgba(102, 96, 96, 1);
+	color: #666060;
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;

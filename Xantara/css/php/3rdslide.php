@@ -10,10 +10,10 @@
   header("Content-type: text/css; charset: UTF-8");
 ?>
 .leftscreen {
-  background-image: url("../../<?php echo $slide3leftbgpath?>");
+  background-image: url("../../<?php echo $slide3rightbgpath?>");
 }
 .rightscreen {
-  background-image: url("../../<?php echo $slide3rightbgpath?>");
+  background-image: url("../../<?php echo $slide3leftbgpath?>");
 }
 <!-- .xdelogo {
 	width: <?php echo "$slide3leftlogosize" ?>%;
