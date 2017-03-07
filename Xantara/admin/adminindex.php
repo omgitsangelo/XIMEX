@@ -19,7 +19,7 @@
 	<link href="../css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
 	<link href="../css/2ndslide.css?version=3.5" rel="stylesheet" type="text/css">
-	<link href="../css/3rdslide.css?version=1.8" rel="stylesheet" type="text/css">
+	<link href="../css/3rdslide.css?version=2.3" rel="stylesheet" type="text/css">
 	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
@@ -76,10 +76,7 @@
 							<p><?php echo "$slide1textcontent3" ?></p>
 							<p><?php echo "$slide1textcontent4" ?></p>
 						</div>
-
-
 					</div>
-
 				</div>
   		</div>
 
@@ -126,12 +123,12 @@
 							<p><?php echo "$slide3righttext4content" ?></p>
 						</div>
 						<div class="otherbrandlogo">
-							<img src="../images/loremipsum.png" />
+							<img src="../<?php echo $slide3rightlogopath ?>" />
 						</div>
 					</div>
 					<div class="col-6 rightscreen" id="rightscreen">
 						<div class="xdelogo">
-							<img src="../images/XDE VILLAGE LOGO VERTICAL lowerres.png" />
+							<img src="../<?php echo "$slide3leftlogopath" ?>" />
 						</div>
 						<div class="infoleft">
 							<p><?php echo "$slide3lefttext1content" ?></p>
@@ -231,7 +228,7 @@
 			<script src="../js/navbarjump.js?version=1.1"></script>
 			<script src="../js/contactus.js?version=1.1"></script>
 			<script src="../js/pushsidebar.js?version=1.1"></script>
-			<script src="../js/edit.js?version=3.4"></script>
+			<script src="../js/edit.js?version=3.5"></script>
 </body>
 
 

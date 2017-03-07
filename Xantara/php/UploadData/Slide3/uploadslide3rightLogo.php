@@ -1,10 +1,10 @@
 <?php
-$target_dir = "../../../Upload/Slide1/Logo/";
+$target_dir = "../../../Upload/Slide3/Logo/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 0;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
-if(isset($_POST["submitSlide1Logo"])) {
+if(isset($_POST["submitSlide3rightLogo"])) {
   $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
   if($check !== false) {
       echo "File is an image - " . $check["mime"] . ".";
@@ -39,7 +39,7 @@ if ($uploadOk == 0) {
 } else {
   if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
     echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
-    $path = "../../../Upload/Slide1/Logo/" . basename( $_FILES["fileToUpload"]["name"]);
+    $path = "../../../Upload/Slide3/Logo/" . basename( $_FILES["fileToUpload"]["name"]);
 
     $server = 'localhost';
     $username = 'root';
@@ -48,14 +48,14 @@ if ($uploadOk == 0) {
 
     $conn = new mysqli($server, $username, $password, $dbname);
 
-    $path = "Upload/Slide1/Logo/" . basename( $_FILES["fileToUpload"]["name"]);
+    $path = "Upload/Slide3/Logo/" . basename( $_FILES["fileToUpload"]["name"]);
 
     $path =  mysqli_real_escape_string($conn, $path);
 
-    $query = "Update slide1logo set Slide1LogoPathIsActive = 0 where Slide1LogoPathIsActive = 1;";
+    $query = "Update slide3rightlogo set Slide3RightLogoIsActive = 0 where Slide3RightLogoIsActive = 1;";
     // $select .= "INSERT INTO slide1logo(Slide1LogoPath)VALUES('$path');";
 
-    $query .= "Update slide1logo set Slide1logoPathIsActive = 1 where Slide1LogoPath = '$path'";
+    $query .= "Update slide3rightlogo set Slide3RightLogoIsActive = 1 where Slide3RightLogoPath = '$path'";
 
 
     if(!$conn->multi_query($query))

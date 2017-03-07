@@ -46,14 +46,15 @@
 .leftscreen:hover ~ .rightscreen {
 	width: 0%;
 }
+.rightscreen:hover ~ .leftscreen {
+	width: 0%;
+}
 
 .infoleft {
 	width: 50%;
 	height: 100%;
 	float: right;
 	display: none;
-	transition-delay: 1s;
-	transition: 1s;
 	margin-top: 6%;
 }
 .inforight {
@@ -64,14 +65,14 @@
 	margin-top: 6%;
 }
 .leftscreen img {
-	position: relative;
-  width: inherit;
+	position: inherit;
+  width: 20%;
 	display: block;
 	margin: 20% auto;
 }
 .rightscreen img {
-	position: relative;
-  width: inherit;
+	position: inherit;
+  width: 50%;
 	display: block;
 	margin: 25% auto;
 }

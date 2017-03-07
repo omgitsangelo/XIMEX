@@ -4,7 +4,7 @@ $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 0;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
-if(isset($_POST["submitSlide3RightBG"])) {
+if(isset($_POST["submitSlide3rightBG"])) {
   $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
   if($check !== false) {
       echo "File is an image - " . $check["mime"] . ".";
@@ -51,9 +51,9 @@ if ($uploadOk == 0) {
 
     $path =  mysqli_real_escape_string($conn, $path);
 
-    $select = "Update slide3rightbg set Slide3RightBGPathIsActive = 0 where Slide3RightBGPathIsActive = 1;";
+    $select = "Update slide3rightbg set Slide3RightBGIsActive = 0 where Slide3RightBGIsActive = 1;";
     // $select .= "INSERT INTO slide1bg(Slide1BGPath)VALUES('$path');";
-    $select .= "Update slide3rightbg set Slide3RightBGPathIsActive = 1 where Slide3RightBGPath =  '$path'";
+    $select .= "Update slide3rightbg set Slide3RightBGIsActive = 1 where Slide3RightBGPath =  '$path'";
 
     if(!$conn->multi_query($select))
     {

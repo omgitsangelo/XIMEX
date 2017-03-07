@@ -8,7 +8,7 @@
       <li><p style="font-size: 16px; padding-top: 10px; padding-bottom: 10px;">Logo Image</p></li>
       <li>
         <label class="sidenav-buttons">
-            <input class="inputs" type="number" name="sld1logsize" value="<?php echo "$slide3leftlogosize" ?>">
+            <input class="inputs" type="number" name="sld3leftlogsize" value="<?php echo "$slide3leftlogosize" ?>">
              <p>Edit Logo Size</p>
         </label>
       </li>

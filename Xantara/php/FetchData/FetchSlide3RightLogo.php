@@ -1,5 +1,5 @@
 <?php
-  $select = "select * from slide3rightlogo where Slide3RightLogoPathIsActive = 1";
+  $select = "select * from slide3rightlogo where Slide3RightLogoIsActive = 1";
   $result = mysqli_query($conn,$select);
 
   if ($result->num_rows > 0)
