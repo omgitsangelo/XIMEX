@@ -1,5 +1,4 @@
 #contact {
-	background-image: url("../images/grass1200.jpg");
 	background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
@@ -33,20 +32,17 @@
 	font-weight: bold;
 	letter-spacing: 2px;
 	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
 	transition: all 0.3s linear;
-	background-color: rgba(102, 96, 96, 0.6);
 	display: block;
 }
 .button:hover {
 	background-color: rgba(170, 145, 112, 0.6);
-	color: #FFFFFF;
 	cursor: pointer;
 }
 .contact{
 	display: block;
 	margin-top: 20%;
-	vertical-align: middle;.
+	vertical-align: middle;
 	height: 93%;
 	width: 100%;
 }
@@ -54,13 +50,10 @@
 	padding: 2% 0 2% 6%;
 	text-align: left;
 	margin-top: 10%;
-	background-color: rgba(30,30,30,0.7);
-	background-color:
 	color: white;
 	display: none;
 }
 .hero_header {
-	color: #666060;
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;

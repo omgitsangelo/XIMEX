@@ -35,7 +35,7 @@
       <br />
       <li>
         <label class="sidenav-buttons">Edit Button Text Content</label>
-        <textarea class="inputs" name="sld4buttxtcon"><?php echo "$slide4formcolor"?></textarea>
+        <textarea class="inputs" name="sld4buttxtcon"><?php echo "$slide4buttontextcontent"?></textarea>
       </li>
       <br />
         <li>

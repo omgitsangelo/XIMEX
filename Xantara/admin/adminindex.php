@@ -19,15 +19,15 @@
 	<link href="../css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
 	<link href="../css/2ndslide.css?version=3.5" rel="stylesheet" type="text/css">
-	<link href="../css/3rdslide.css?version=2.3" rel="stylesheet" type="text/css">
-	<link href="../css/4thslide.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="../css/3rdslide.css?version=2.4" rel="stylesheet" type="text/css">
+	<link href="../css/4thslide.css?version=2" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
 	<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
 	<link href="../css/php/1stslide.php?version=3.2	" rel="stylesheet" type="text/css">
 	<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
-	<link href="../css/php/3rdslide.php?version=3.6	" rel="stylesheet" type="text/css">
-	<link href="../css/php/4thslide.php?version=3.1	" rel="stylesheet" type="text/css">
+	<link href="../css/php/3rdslide.php?version=3.7	" rel="stylesheet" type="text/css">
+	<link href="../css/php/4thslide.php?version=4.5	" rel="stylesheet" type="text/css">
 </head>
 
 <body onLoad="showSlides(slideIndex)">
@@ -40,6 +40,7 @@
 			<li><a class="tablinks" onclick="currentSlide(2)">Mission and Vision</a></li>
       <li><a class="tablinks" onclick="currentSlide(3)">Explore</a></li>
       <li><a class="tablinks" onclick="currentSlide(4)">Contact Us</a></li>
+			<li><a class="tablinks" onclick="currentSlide(5)">News & Updates</a></li>
 			<li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
 			<li><a class="logout" href="../login-index.php">Log Out</a></li>
 			<li><a class="edit" id="edit">Edit</a></li>
@@ -140,7 +141,7 @@
 				</div>
 		  </div>
 
-			<!-- End of Slide 2 -->
+			<!-- End of Slide 3 -->
 
 			<!-- Slide 4: Contact Us -->
 
@@ -171,9 +172,9 @@
 						</form>
 					</div>
 					<div class="col-8 contact">
-						<p class="hero_header" id="heroheader">GET IN TOUCH WITH US</p>
+						<p class="hero_header" id="heroheader"><?php echo $slide4headercontent ?></p>
           	<div class="button" id="contactus" onclick="openNav()">
-							CONTACT US
+							<?php echo "$slide4buttontextcontent" ?>
 						</div>
         	</div>
 				</div>

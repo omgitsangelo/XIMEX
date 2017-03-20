@@ -20,7 +20,7 @@
       $slide4formbuttontextcolor = $row['Slide4FormButtonTextColor'];
       $slide4formbuttontextsize = $row['Slide4FormButtonTextSize'];
       $slide4formbuttontextcontent = $row['Slide4FormButtonTextContent'];
-      $slide4isactive = $row['Slide4IsActive'];
+      $slide4formisactive = $row['Slide4FormIsActive'];
     }
   }
 ?>
