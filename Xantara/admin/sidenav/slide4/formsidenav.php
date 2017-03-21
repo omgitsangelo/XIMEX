@@ -20,26 +20,6 @@
       </li>
       <br />
       <li>
-        <label class="sidenav-buttons">Edit Form 1 Content</label>
-        <textarea class="inputs" name="sld4form1con"><?php echo "$slide4form1content"?></textarea>
-      </li>
-      <br />
-      <li>
-        <label class="sidenav-buttons">Edit Form 2 Content</label>
-        <textarea class="inputs" name="sld4form2con"><?php echo "$slide4form2content"?></textarea>
-      </li>
-      <br />
-      <li>
-        <label class="sidenav-buttons">Edit Form 3 Content</label>
-        <textarea class="inputs" name="sld4form3con"><?php echo "$slide4form3content"?></textarea>
-      </li>
-      <br />
-      <li>
-        <label class="sidenav-buttons">Edit Form 4 Content</label>
-        <textarea class="inputs" name="sld4form4con"><?php echo "$slide4form4content"?></textarea>
-      </li>
-      <br />
-      <li>
         <label class="sidenav-buttons">Edit Form Header Size</label>
         <input class="inputs" name="sld4formhdrsize" type="number" value="<?php echo "$slide4formheadersize" ?>">
       </li>

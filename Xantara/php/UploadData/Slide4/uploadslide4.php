@@ -24,8 +24,8 @@ if(isset($_POST['submitSlide4Values']))
 
   $slide4headercontent =  mysqli_real_escape_string($conn, $slide4headercontent);
   $slide4buttontextcontent =  mysqli_real_escape_string($conn, $slide4buttontextcontent);
-  $query = "UPDATE slide4 SET Slide4IsActive = 0 WHERE Slide4IsActive = 1;";
-  $query .= "INSERT INTO slide4(Slide4HeaderColor, Slide4HeaderSize, Slide4HeaderContent, Slide4ButtonColor, Slide4ButtonTextColor, Slide4ButtonTextSize, Slide4ButtonTextContent, Slide4IsActive, Slide4IsApproved, Slide4IsDefault) VALUES('$slide3lefttextcolor', '$slide3lefttextsize', '$slide3lefttext1content', '$slide3lefttext2content', '$slide3lefttext3content', '$slide3lefttext1content4', 1, 1, 1)";
+  $query = "UPDATE slide4 SET Slide4IsActive = 0, Slide4IsApproved = 0 WHERE Slide4IsActive = 1 && Slide4IsApproved = 1;";
+  $query .= "INSERT INTO slide4(Slide4HeaderColor, Slide4HeaderSize, Slide4HeaderContent, Slide4ButtonColor, Slide4ButtonTextColor, Slide4ButtonTextSize, Slide4ButtonTextContent, Slide4IsActive, Slide4IsApproved, Slide4IsDefault) VALUES('$slide3lefttextcolor', '$slide3lefttextsize', '$slide3lefttext1content', '$slide3lefttext2content', '$slide3lefttext3content', '$slide3lefttext1content4', 1, 1, 0)";
 
   if (!$conn->multi_query($query)) {
     //header("location: ../admin/adminindex.php");

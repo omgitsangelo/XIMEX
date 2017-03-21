@@ -1,5 +1,5 @@
 <?php
-  $select = "select * from slide4";
+  $select = "select * from slide4 where Slide4IsActive = 1";
   $result = mysqli_query($conn,$select);
 
   if ($result->num_rows > 0)

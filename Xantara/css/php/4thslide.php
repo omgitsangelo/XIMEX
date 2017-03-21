@@ -24,4 +24,21 @@ header("Content-type: text/css; charset: UTF-8");
 }
 .forms {
 	background-color: <?php echo $slide4formcolor; ?>;
+  color: <?php echo $slide4formtextcolor; ?>;
+}
+.forms input[type=text], .forms input[type=email] {
+	font-size: <?php echo $slide4formtextsize; ?>px;
+}
+.forms textarea {
+  font-size: <?php echo $slide4formtextsize; ?>px;
+}
+.forms h2 {
+	font-size: <?php echo $slide4formheadersize; ?>px;
+	font-variant: small-caps;
+  color: <?php echo $slide4formheadercolor; ?>;
+}
+.forms input[type=submit] {
+  background-color: <?php echo $slide4formbuttoncolor; ?>;
+  color: <?php echo $slide4formbuttontextcolor; ?>;
+  font-size: <?php echo $slide4formbuttontextsize; ?>px
 }

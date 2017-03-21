@@ -7,6 +7,7 @@
 <?php include '../php/FetchData/FetchSlide3Right.php' ?>
 <?php include '../php/FetchData/FetchSlide3RightLogo.php' ?>
 <?php include '../php/FetchData/FetchSlide4.php' ?>
+<?php include '../php/FetchData/FetchSlide4Form.php' ?>
 <?php include '../php/FetchData/FetchSlide1Logo.php' ?>
 <html>
 	<meta charset="utf-8">
@@ -20,7 +21,7 @@
 	<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
 	<link href="../css/2ndslide.css?version=3.5" rel="stylesheet" type="text/css">
 	<link href="../css/3rdslide.css?version=2.4" rel="stylesheet" type="text/css">
-	<link href="../css/4thslide.css?version=2" rel="stylesheet" type="text/css">
+	<link href="../css/4thslide.css?version=2.1" rel="stylesheet" type="text/css">
 	<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 	<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
 	<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
@@ -168,7 +169,7 @@
 								<textarea rows="10" cols="40" required></textarea>
 							</label>
 							<br>
-							<input type="submit">
+							<input type="submit" value="<?php echo $slide4formbuttontextcontent ?>">
 						</form>
 					</div>
 					<div class="col-8 contact">
