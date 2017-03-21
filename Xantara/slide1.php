@@ -1,4 +1,3 @@
-<?php ?>
 <div class="mySlides fade">
   <div class="row about" id="1">
     <div class="row intro">

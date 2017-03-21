@@ -1,4 +1,3 @@
-<?php ?>
 <div class="row copyright">
   <div class="col-4 left">
     <div class="row left-container">

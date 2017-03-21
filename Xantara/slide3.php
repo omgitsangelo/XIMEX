@@ -1,4 +1,3 @@
-<?php ?>
 <div class="mySlides fade">
   <div class="row selection">
     <div class="col-6 leftscreen" id="leftscreen">
@@ -9,12 +8,12 @@
         <p><?php echo "$slide3righttext4content" ?></p>
       </div>
       <div class="otherbrandlogo">
-        <img src="../images/loremipsum.png" />
+        <img src="../<?php echo $slide3rightlogopath ?>" />
       </div>
     </div>
     <div class="col-6 rightscreen" id="rightscreen">
       <div class="xdelogo">
-        <img src="../images/XDE VILLAGE LOGO VERTICAL lowerres.png" />
+        <img src="../<?php echo "$slide3leftlogopath" ?>" />
       </div>
       <div class="infoleft">
         <p><?php echo "$slide3lefttext1content" ?></p>

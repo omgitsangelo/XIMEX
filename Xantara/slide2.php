@@ -1,4 +1,3 @@
-<?php ?>
 <div class="mySlides fade">
   <div class="row misvis-container">
     <div class="row">
