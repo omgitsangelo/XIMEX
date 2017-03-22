@@ -24,7 +24,7 @@
 		<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
 		<link href="../css/2ndslide.css?version=3.5" rel="stylesheet" type="text/css">
 		<link href="../css/3rdslide.css?version=2.4" rel="stylesheet" type="text/css">
-		<link href="../css/4thslide.css?version=1.3" rel="stylesheet" type="text/css">
+		<link href="../css/4thslide.css?version=1.8" rel="stylesheet" type="text/css">
 		<link href="../css/5thslide.css?version=2.1" rel="stylesheet" type="text/css">
 		<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 		<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
@@ -112,6 +112,7 @@
 				<script src="../js/contactus.js?version=1.1"></script>
 				<script src="../js/pushsidebar.js?version=1.1"></script>
 				<script src="../js/edit.js?version=3.5"></script>
+				<script src="../js/read-more.js?version=3.5"></script>
 	</body>
 
 
