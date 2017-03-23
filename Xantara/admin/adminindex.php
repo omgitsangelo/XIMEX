@@ -24,19 +24,20 @@
 		<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
 		<link href="../css/2ndslide.css?version=3.5" rel="stylesheet" type="text/css">
 		<link href="../css/3rdslide.css?version=2.4" rel="stylesheet" type="text/css">
-		<link href="../css/4thslide.css?version=1.8" rel="stylesheet" type="text/css">
+		<link href="../css/4thslide.css?version=2.1" rel="stylesheet" type="text/css">
 		<link href="../css/5thslide.css?version=2.1" rel="stylesheet" type="text/css">
 		<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 		<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
 		<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
+		<link href="../css/modal-news.css?version=1.1	" rel="stylesheet" type="text/css">
 		<link href="../css/php/1stslide.php?version=3.2	" rel="stylesheet" type="text/css">
 		<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
 		<link href="../css/php/3rdslide.php?version=3.7	" rel="stylesheet" type="text/css">
-		<link href="../css/php/4thslide.php?version=1	" rel="stylesheet" type="text/css">
+		<link href="../css/php/4thslide.php?version=10" rel="stylesheet" type="text/css">
 		<link href="../css/php/5thslide.php?version=4.5	" rel="stylesheet" type="text/css">
 	</head>
 
-	<body onLoad="showSlides(slideIndex)">
+	<body onLoad="showThis()">
 
 			<!-- Start of Navigation bar -->
 
@@ -107,12 +108,12 @@
 
 				<!-- End of Slideshows -->
 				<script src="../js/jquery-3.1.1.min.js?version=1.1"></script>
-				<script src="../js/slideshow.js?version=1.1"></script>
+				<script src="../js/slideshow.js?version=15.5"></script>
 				<script src="../js/navbarjump.js?version=1.1"></script>
 				<script src="../js/contactus.js?version=1.1"></script>
 				<script src="../js/pushsidebar.js?version=1.1"></script>
 				<script src="../js/edit.js?version=3.5"></script>
-				<script src="../js/read-more.js?version=3.5"></script>
+				<script src="../js/modal.js?version=1.1"></script>
 	</body>
 
 

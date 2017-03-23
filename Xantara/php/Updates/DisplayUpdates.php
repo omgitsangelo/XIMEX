@@ -23,19 +23,19 @@
 
       echo "<div class='row'>";
         echo "<div class='content-container'>";
-          echo "<div class='col-3'>";
+          echo "<div class='col-2'>";
             echo "<div class='datetime-container'>";
-              echo "<p class='datestamp month'>$month </p>";
+              echo "<p class='datestamp month'>$month</p>";
               echo "<p class='datestamp year'>$year</p>";
               echo "<br/>";
               echo "<br/>";
             echo "</div>";
           echo "</div>";
-          echo "<div class='col-9'>";
+          echo "<div class='col-10'>";
             echo "<p class='news-header'>$title</p>";
             echo "<p class='news-content'>$summary</p>";
             if (strlen($summary < $content )) {
-              echo "<p class='news-content read-more'>Read More »</p>";
+              echo "<a href='adminindex.php?id=$id' class='news-content read-more'>Read More »</a>";
             };
             echo "<br/>";
             echo "<br/>";

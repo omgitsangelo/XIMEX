@@ -6,26 +6,20 @@
 
   $conn = new mysqli($server, $username, $password, $dbname);
 
-
-  $UpdatesID = $_GET['UpdatesID'];
-  $select = "SELECT * FROM updates WHERE UpdatesID = '$UpdatesID' && UpdatesIsApproved = 1 && UpdatesIsActive = 1";
+  $select = "SELECT * FROM updates WHERE UpdatesIsApproved = 1 && UpdatesIsActive = 1";
   $result = mysqli_query($conn,$select);
 
   if ($result->num_rows > 0)
   {
     while ($row = mysqli_fetch_array($result))
     {
+      $id = $row['UpdatesID'];
       $title = $row['UpdatesHeader'];
       $content = $row['UpdatesContent'];
-      $id = $row['UpdatesID'];
       $datetime = date_create($row['DateTime']);
-      $date = date_format($datetime, 'F:j:Y');
+      $date = date_format($datetime, 'F Y');
 
-      echo "<div class='full-news-column'>";
-        echo "<p class='full-news-header'>$title</p>";
-        echo "<p class='full-news-date'>$date</p>";
-        echo "<p class='full-news-content'>$content</p>";
-      echo "</div>";
+        echo "<li><span class='news-dates'>$date</span></li>";
     }
   }
   else {

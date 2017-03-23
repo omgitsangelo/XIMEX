@@ -1,6 +1,6 @@
 .news-container {
   background-color: rgb(255, 244, 222);
-  padding: 5% 7%;
+  padding: 3% 5%;
   width: 100%;
   height: 100%;
   overflow-y: hidden;
@@ -8,27 +8,45 @@
 .news-container .row {
   height: 100%;
 }
-.news-container .row .col-6{
+.news-container .row .col-9 {
+  height: 100%;
+}
+.news-container .row .col-3 {
   height: 100%;
 }
 .news-column {
+  margin: 1% 2%;
+  border: 2px solid red;
+  width: 98%;
+  height: 94%;
+  overflow-y: auto;
+}
+.timeline-column {
   margin: 2% 2%;
   border: 2px solid red;
   width: 98%;
-  height: 95%;
+  height: 94%;
   overflow-y: auto;
-}
-.full-news-column {
-  margin: 2% 2%;
-  border: 2px solid red;
-  height: 95%;
-  overflow-y: auto;
+  padding-top: 3%;
+  padding-right: 15%;
 }
 .news-container .news-column h1 {
   font-size: 60px;
   font-variant: small-caps;
   color: rgb(78, 51, 0);
+  margin-left: 5%;
   margin-bottom: 5%;
+}
+.timeline-column h1 {
+  font-variant: small-caps;
+  color: rgb(78, 51, 0);
+  text-align: right;
+}
+.date-list {
+  float: right;
+}
+.news-dates {
+  cursor: pointer;
 }
 .news-panel {
   margin-left: 3%;
@@ -45,42 +63,26 @@
 .datetime-container {
   text-align: center;
   margin: auto;
-  margin-bottom: 10%;
-  padding: 7px 8px;
+  padding: 15px 6px;
   background-color: black;
   border-radius: 60rem;
   border: 5px solid red;
-  width: 85px;
-  height: 85px;
+  width: 70px;
+  height: 70px;
 }
 .datestamp {
   text-align: center;
   color: white;
 }
 .month {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bolder;
   text-transform: uppercase;
+  line-height: 70%;
 }
 .year {
   font-weight: bold;
-  font-size: 20px;
-}
-.full-news-header {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 36px;
-  margin-top: 5%;
-  margin-bottom: 10%;
-}
-.full-news-date {
-  text-align: right;
-}
-.full-news-content {
-  text-align: justify;
-  margin-left: 5%;
-  margin-right: 5%;
+  font-size: 16px;
 }
 .read-more {
   cursor: pointer;
