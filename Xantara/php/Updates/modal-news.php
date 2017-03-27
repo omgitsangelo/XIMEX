@@ -17,7 +17,7 @@ if ($result->num_rows > 0)
   {
     $modaltitle = $row['UpdatesHeader'];
     $modalcontent = $row['UpdatesContent'];
-    $modaldatetime = date_create($row['DateTime']);
+    $modaldatetime = date_create($row['date_time']);
   }
 }
 else

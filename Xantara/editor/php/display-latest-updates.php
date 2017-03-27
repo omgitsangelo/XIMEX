@@ -17,26 +17,18 @@
       $content = $row['UpdatesContent'];
       $id = $row['UpdatesID'];
       $datetime = date_create($row['date_time']);
-      $month = date_format($datetime, 'M');
-      $year = date_format($datetime, 'Y');
+      $month = date_format($datetime, 'Y-m-d H:i:s');
       $summary = substr($content, 0, 500);
 
       echo "<div class='row'>";
-        echo "<div class='content-container'>";
+        echo "<div class='content-container' style='padding: 5% 5%;'>";
           echo "<div class='col-2'>";
-            echo "<div class='datetime-container'>";
-              echo "<p class='datestamp month'>$month</p>";
-              echo "<p class='datestamp year'>$year</p>";
-              echo "<br/>";
-              echo "<br/>";
-            echo "</div>";
+              echo "<p style='text-align:center; margin-top: 10%; line-height: 100%;' class='month'>$month</p>";
           echo "</div>";
           echo "<div class='col-10'>";
             echo "<p class='news-header'>$title</p>";
-            echo "<p class='news-content'>$summary</p>";
-            if (strlen($summary < $content )) {
-              echo "<a href='adminindex.php?id=$id' class='news-content read-more'>Read More »</a>";
-            };
+            echo "<p class='news-content'>$content</p>";
+            echo "<button><a href='../post-editor/edit-latest-updates.php?updates_id=$row[UpdatesID]'>EDIT</a></button>";
             echo "<br/>";
             echo "<br/>";
           echo "</div>";

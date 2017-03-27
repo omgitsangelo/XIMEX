@@ -29,7 +29,7 @@
 		<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 		<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
 		<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
-		<link href="../css/modal-news.css?version=1.1	" rel="stylesheet" type="text/css">
+		<link href="../css/modal-news.css?version=1.2	" rel="stylesheet" type="text/css">
 		<link href="../css/php/1stslide.php?version=3.2	" rel="stylesheet" type="text/css">
 		<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
 		<link href="../css/php/3rdslide.php?version=3.7	" rel="stylesheet" type="text/css">
@@ -108,7 +108,7 @@
 
 				<!-- End of Slideshows -->
 				<script src="../js/jquery-3.1.1.min.js?version=1.1"></script>
-				<script src="../js/slideshow.js?version=15.5"></script>
+				<script src="../js/slideshow.js?version=15.6"></script>
 				<script src="../js/navbarjump.js?version=1.1"></script>
 				<script src="../js/contactus.js?version=1.1"></script>
 				<script src="../js/pushsidebar.js?version=1.1"></script>
