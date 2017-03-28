@@ -1,8 +1,3 @@
-@charset "UTF-8";
-@font-face {
-  font-family: "MyriadPro";
-  src: url('../../fonts/MyriadPro.otf'),url('../fonts/MyriadPro.otf');
-}
 *
 {
   box-sizing: border-box;
@@ -10,17 +5,23 @@
 	margin: 0;
 }
 
+@font-face{
+  font-family: "Myriad";
+  src: url('Fonts/MyriadPro-Regular.otf'),
+  url('Fonts/MyriadPro-Regular.otf'); /* IE */
+}
+
 html
 {
 	height: 100%;
-  font-family: "MyriadPro";
+  font-family: "Myriad";
 }
 
 body
 {
 	height: 100%;
 	background: #eff1f4;
-  font-family: "MyriadPro";
+  font-family: "Myriad";
 }
 
 /* Viewports */
@@ -78,20 +79,19 @@ body
 
 .header {
   text-align: right;
+  font-family: "Myriad";
   color: #233d91;
   font-size: 15px;
   padding: 1.5%;
   background-color: #1a1a1a;
 }
 
-.sidenavhead {
-  text-align: center;
-  color: #B3B3B3;
-  padding: 5%;
-  margin-bottom: 5%;
+.header h1 {
   font-variant: small-caps;
-  letter-spacing: 1px;
-  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 14px;
 }
 
 .sidenav {
@@ -101,13 +101,20 @@ body
   z-index: 1000000;
   top: 0;
   left: 0;
+  background-color: #1a1a1a;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
-  background: -webkit-linear-gradient(rgb(68, 68, 68), black); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgb(68, 68, 68), black); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#rgb(68, 68, 68), black); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgb(68, 68, 68), black); /* Standard syntax (must be last) */
+}
+
+.sidenav h2 {
+  text-align: center;
+  color: white;
+  padding: 5%;
+  margin-bottom: 5%;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 .borderTop {
@@ -118,19 +125,19 @@ body
   border-bottom: 1px solid rgba(140, 140, 140, 0.15);
   padding: 5%;
   text-decoration: none;
-  font-family: "MyriadPro";
-  font-size: 12px;
+  font-family: "Myriad";
+  font-size: 15px;
   font-variant: small-caps;
   letter-spacing: 2px;
-  color: #B3B3B3;
+  color: white;
   display: block;
-  transition: 0.5s;
+  transition: 0.3s;
   font-weight: bold;
 }
 
-.sidenav a:hover{
-  background-color: #ad8f73;
-  color: #676060;
+.sidenav a:hover, .offcanvas a:focus{
+  background-color: #f2f2f2;
+  color: black;
   font-weight: bold;
 }
 

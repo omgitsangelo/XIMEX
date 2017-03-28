@@ -15,15 +15,13 @@
   height: 100%;
 }
 .news-column {
-  margin: 1% 2%;
-  border: 2px solid red;
+  margin: 0.5% 2%;
   width: 98%;
   height: 94%;
   overflow-y: auto;
 }
 .timeline-column {
   margin: 2% 2%;
-  border: 2px solid red;
   width: 98%;
   height: 94%;
   overflow-y: auto;

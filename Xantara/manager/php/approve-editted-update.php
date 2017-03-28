@@ -8,7 +8,7 @@
 
   $ref_no = $_GET['updates_id'];
 
-  $select = "Select * from edited-updates where UpdatesID = '$ref_no'";
+  $select = "Select * from edited_updates where UpdatesID = '$ref_no'";
   $result=mysqli_query($conn,$select);
 
   if ($result->num_rows > 0)
@@ -40,7 +40,7 @@
     }
   }
 
-  $query = "Update edited-updates set UpdatesIsApproved = 1 where UpdatesID = '$ref_no';";
+  $query = "Update edited_updates set UpdatesIsApproved = 1 where UpdatesID = '$ref_no';";
   $query .= "Update Updates set UpdatesHeader = '$etitle', UpdatesContent = '$econtent' where UpdatesID = '$eref_no';";
   $query .= "INSERT INTO logfiles(logdatetime, logname, logdesc) VALUES(Now(), 'Manager', 'Approved editted post')";
 

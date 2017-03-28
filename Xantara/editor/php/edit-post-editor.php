@@ -15,7 +15,7 @@
     $title = mysqli_real_escape_string($conn, $title);
     $content = mysqli_real_escape_string($conn, $content);
 
-    $query = "INSERT INTO edited-updates(UpdatesHeader, UpdatesContent, date_time, UpdatesIsActive, ref_no) VALUES('$title', '$content', Now(), 1, '$ref_no');";
+    $query = "INSERT INTO edited_updates(UpdatesHeader, UpdatesContent, date_time, UpdatesIsActive, ref_no) VALUES('$title', '$content', Now(), 1, '$ref_no');";
     $query .= "INSERT INTO logfiles(logdatetime, logname, logdesc) VALUES(Now(), 'Editor', 'Edited a post')";
 
     if(!$conn->multi_query($query))

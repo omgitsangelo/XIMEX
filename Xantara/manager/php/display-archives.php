@@ -15,15 +15,16 @@
     {
       $title = $row['UpdatesHeader'];
       $content = $row['UpdatesContent'];
+      $id = $row['UpdatesID'];
 
       echo "<div class='col-12 col-m-12 articles'>";
-        echo "<h2>$row[UpdatesHeader]</h2>";
+        echo "<h2>$title</h2>";
         echo "<br>";
         echo "<br>";
         echo "<p>";
-          echo $row['UpdatesContent'];
+          echo $content;
         echo "</p>";
-        echo "<button><a href='../manage-post/retrieve-current-post.php?updates_id=$row[UpdatesID]'>RETRIEVE</a></button>";
+        echo "<button><a href='../manage-post/retrieve-current-post.php?updates_id=$id'>RETRIEVE</a></button>";
       echo "</div>";
       echo "<br>";
       echo "<br>";

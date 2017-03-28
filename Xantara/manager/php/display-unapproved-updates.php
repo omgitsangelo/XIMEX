@@ -15,22 +15,23 @@
     {
       $title = $row['UpdatesHeader'];
       $content = $row['UpdatesContent'];
+      $id = $row['UpdatesID'];
 
       echo "<div class='col-12 col-m-12 articles'>";
-        echo "<h2>$row[UpdatesHeader]</h2>";
+        echo "<h2>$title</h2>";
         echo "<br>";
         echo "<br>";
         echo "<p>";
-          echo $row['UpdatesContent'];
+          echo $content;
         echo "</p>";
-        echo "<button><a href='../php/approve-update.php?updates_id=$row[UpdatesID]'>APPROVE</a></button>";
-        echo "<button><a href='../php/disapprove-update.php?updates_id=$row[UpdatesID]'>REJECT</button>";
+        echo "<button><a href='../php/approve-update.php?updates_id=$id'>APPROVE</a></button>";
+        echo "<button><a href='../php/disapprove-update.php?updates_id=$id'>REJECT</button>";
       echo "</div>";
       echo "<br>";
       echo "<br>";
     }
   }
   else {
-    echo "Cannot add record! " .mysqli_error($conn);
+    echo "No new update! " .mysqli_error($conn);
   }
 ?>
