@@ -1,4 +1,5 @@
 .misvis-container {
+  font-family: "MyriadPro";
   width: 100%;
   height: 100%;
   background-attachment: fixed;
@@ -18,6 +19,7 @@
   margin-top: 7%;
 }
 .mission h1 {
+  font-family: "MyriadPro";
   float: left;
   margin-left: 5%;
   font-variant: small-caps;
@@ -39,6 +41,7 @@
   float: right;
 }
 .vision h1 {
+  font-family: "MyriadPro";
   float: left;
   margin-left: 5%;
   font-variant: small-caps;
@@ -52,5 +55,6 @@
   margin-top: 7%;
 }
 .misvis-container p {
+  font-family: "MyriadPro";
   color: white;
 }

@@ -19,10 +19,10 @@
 		<title>Xantara Development Corporation</title>
 
 		<!-- Header Style CSS -->
-	  <link href="../css/main.css?version=1.2" rel="stylesheet" type="text/css">
+	  <link href="../css/main.css?version=1.3" rel="stylesheet" type="text/css">
 		<link href="../css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
 		<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
-		<link href="../css/2ndslide.css?version=3.5" rel="stylesheet" type="text/css">
+		<link href="../css/2ndslide.css?version=3.7" rel="stylesheet" type="text/css">
 		<link href="../css/3rdslide.css?version=2.4" rel="stylesheet" type="text/css">
 		<link href="../css/4thslide.css?version=2.2" rel="stylesheet" type="text/css">
 		<link href="../css/5thslide.css?version=2.1" rel="stylesheet" type="text/css">
@@ -33,7 +33,7 @@
 		<link href="../css/php/1stslide.php?version=3.2	" rel="stylesheet" type="text/css">
 		<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
 		<link href="../css/php/3rdslide.php?version=3.7	" rel="stylesheet" type="text/css">
-		<link href="../css/php/4thslide.php?version=10" rel="stylesheet" type="text/css">
+		<link href="../css/php/4thslide.php?version=1.0" rel="stylesheet" type="text/css">
 		<link href="../css/php/5thslide.php?version=4.5	" rel="stylesheet" type="text/css">
 	</head>
 
@@ -82,11 +82,17 @@
 
 				<!-- End of Slide 4 -->
 
-				<!-- Slide 5: Contact Us -->
+				<!-- Slide 5: Site Plan -->
 
-				<?php include '../slide5.php'; ?>
+				<?php include '../siteplan.php'; ?>
 
 				<!-- End of Slide 5 -->
+
+				<!-- Slide 6: Contact Us -->
+
+				<?php include '../slide6.php'; ?>
+
+				<!-- End of Slide 6 -->
 
 				<!-- Slider Controls -->
 
@@ -114,6 +120,8 @@
 				<script src="../js/pushsidebar.js?version=1.1"></script>
 				<script src="../js/edit.js?version=3.5"></script>
 				<script src="../js/modal.js?version=1.1"></script>
+				<script src="../js/xantaramap.js?version=1.0"></script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNZVTin3Ws_eUaz-nK89S2pmfkkKBL9oc&callback=myMap"></script>
 	</body>
 
 
