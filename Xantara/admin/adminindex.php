@@ -26,6 +26,7 @@
 		<link href="../css/3rdslide.css?version=2.4" rel="stylesheet" type="text/css">
 		<link href="../css/4thslide.css?version=2.2" rel="stylesheet" type="text/css">
 		<link href="../css/5thslide.css?version=2.1" rel="stylesheet" type="text/css">
+		<link href="../css/siteplan.css?version=1.0" rel="stylesheet" type="text/css">
 		<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 		<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
 		<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
@@ -120,8 +121,7 @@
 				<script src="../js/pushsidebar.js?version=1.1"></script>
 				<script src="../js/edit.js?version=3.5"></script>
 				<script src="../js/modal.js?version=1.1"></script>
-				<script src="../js/xantaramap.js?version=1.0"></script>
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNZVTin3Ws_eUaz-nK89S2pmfkkKBL9oc&callback=myMap"></script>
+
 	</body>
 
 
