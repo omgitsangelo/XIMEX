@@ -26,10 +26,11 @@
 		<link href="../css/3rdslide.css?version=2.4" rel="stylesheet" type="text/css">
 		<link href="../css/4thslide.css?version=2.2" rel="stylesheet" type="text/css">
 		<link href="../css/5thslide.css?version=2.1" rel="stylesheet" type="text/css">
-		<link href="../css/siteplan.css?version=1.0" rel="stylesheet" type="text/css">
+		<link href="../css/siteplan.css?version=1.1" rel="stylesheet" type="text/css">
 		<link href="../css/footer.css?version=1.2" rel="stylesheet" type="text/css">
 		<link href="../css/sidenav.css?version=5.1" rel="stylesheet" type="text/css">
 		<link href="../css/edit.css?version=2.5	" rel="stylesheet" type="text/css">
+		<link href="../css/amenities.css?version=1.0" rel="stylesheet" type="text/css">
 		<link href="../css/modal-news.css?version=1.2	" rel="stylesheet" type="text/css">
 		<link href="../css/php/1stslide.php?version=3.2	" rel="stylesheet" type="text/css">
 		<link href="../css/php/2ndslide.php?version=3.1	" rel="stylesheet" type="text/css">
@@ -89,7 +90,13 @@
 
 				<!-- End of Slide 5 -->
 
-				<!-- Slide 6: Contact Us -->
+				<!-- Slide 6: Amenities -->
+
+				<?php include '../amenities.php'; ?>
+
+				<!-- End of Slide 6 -->
+
+				<!-- Slide 7: Contact Us -->
 
 				<?php include '../slide6.php'; ?>
 
@@ -121,7 +128,7 @@
 				<script src="../js/pushsidebar.js?version=1.1"></script>
 				<script src="../js/edit.js?version=3.5"></script>
 				<script src="../js/modal.js?version=1.1"></script>
-
+				<script src="../js/amenities.js?version=1.0"></script>
 	</body>
 
 
