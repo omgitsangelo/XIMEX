@@ -29,10 +29,11 @@
   margin: auto;
   margin-top: 1%;
   background-color: rgba(27, 27, 27, 0.5);
+  text-align: center;
 }
 .modalimg {
-  width: 300px;
-  height: 200px;
+  width: 150px;
+  height: 100px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;

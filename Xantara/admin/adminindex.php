@@ -129,6 +129,7 @@
 				<script src="../js/edit.js?version=3.5"></script>
 				<script src="../js/modal.js?version=1.1"></script>
 				<script src="../js/amenities.js?version=1.0"></script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvzyvKlSz0mXdZGTDKgiCxCigj9IPKGls&callback=myMap"></script>
 	</body>
 
 
