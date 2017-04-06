@@ -12,14 +12,12 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-
 function showThis(){
   if(document.location.search != '') {
       showSlides(slideIndex = 4);
       console.log(document.location.search);
       document.getElementById('modal-container').style.display = "block";
-
-  } else {
+    } else {
       showSlides(slideIndex);
       console.log(document.location.search);
   }

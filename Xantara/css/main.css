@@ -76,7 +76,11 @@ p {
 	background-size: cover;
 	margin: 0;
 }
-
+#googleMap {
+  display: none;
+  position: absolute;
+  margin-top: 10%;
+}
 /* Next & previous buttons */
 .prev-next {
   display: table-cell;

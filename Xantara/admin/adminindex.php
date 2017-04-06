@@ -19,7 +19,7 @@
 		<title>Xantara Development Corporation</title>
 
 		<!-- Header Style CSS -->
-	  <link href="../css/main.css?version=1.3" rel="stylesheet" type="text/css">
+	  <link href="../css/main.css?version=1.4" rel="stylesheet" type="text/css">
 		<link href="../css/navbar.css?version=1.2" rel="stylesheet" type="text/css">
 		<link href="../css/1stslide.css?version=3.5" rel="stylesheet" type="text/css">
 		<link href="../css/2ndslide.css?version=3.7" rel="stylesheet" type="text/css">
@@ -40,6 +40,26 @@
 	</head>
 
 	<body onLoad="showThis()">
+		<div id="googleMap" style="width:500px; height:500px; margin: auto; margin-top: 2%;">
+
+			<script>
+			function myMap() {
+				if(showSlides(slideIndex = 5)) {
+					var mapProp = {
+						center: new google.maps.LatLng(14.17882936, 121.09910458),
+						zoom: 18,
+						mapTypeId: google.maps.MapTypeId.HYBRID
+					};
+					var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+					document.getElementById("googleMap").style.display = "block";
+				}
+				else {
+					document.getElementById("googleMap").style.display = "none";
+				}
+			}
+			</script>
+
+		</div>
 
 			<!-- Start of Navigation bar -->
 
@@ -122,7 +142,7 @@
 
 				<!-- End of Slideshows -->
 				<script src="../js/jquery-3.1.1.min.js?version=1.1"></script>
-				<script src="../js/slideshow.js?version=15.6"></script>
+				<script src="../js/slideshow.js?version=15.7"></script>
 				<script src="../js/navbarjump.js?version=1.1"></script>
 				<script src="../js/contactus.js?version=1.1"></script>
 				<script src="../js/pushsidebar.js?version=1.1"></script>
